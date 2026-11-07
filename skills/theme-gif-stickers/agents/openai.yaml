@@ -1,0 +1,4 @@
+interface:
+  display_name: "一图成套 · GIF 表情包工坊"
+  short_description: "在Codex中用一张主图和一个主题，自动设计文案与动作并交付整套GIF"
+  default_prompt: "使用 $theme-gif-stickers，用这张角色模板制作一套不想上班的 GIF 表情包，自动设计贴切动作，默认流畅播放。"
