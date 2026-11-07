@@ -1,5 +1,5 @@
 {
-  "count": 46,
+  "count": 55,
   "packs": [
     {
       "id": "cat-daily",
@@ -404,9 +404,109 @@
           "duration_ms": 1500
         }
       ]
+    },
+    {
+      "id": "whale-battle",
+      "title": "鲸鱼娘 · 骑马动作",
+      "items": [
+        {
+          "id": "01",
+          "caption": "骑马挥关刀",
+          "file": "docs/examples/whale-battle/01.gif",
+          "sha256": "3d8c6c5b25f212e8a2bc347d3902450cf2fe43758b78a3fe5e33b19e2ebd8a79",
+          "frames": 36,
+          "duration_ms": 1440
+        },
+        {
+          "id": "02",
+          "caption": "正面骑马冲刺",
+          "file": "docs/examples/whale-battle/02.gif",
+          "sha256": "de691e264de68cee4ad3788c75b6a757f6222606b67761086c1b2963c9e4fce6",
+          "frames": 44,
+          "duration_ms": 1760
+        }
+      ]
+    },
+    {
+      "id": "trump-pixel",
+      "title": "特朗普 · 像素表情包",
+      "items": [
+        {
+          "id": "01",
+          "caption": "已读，制裁",
+          "file": "docs/examples/trump-pixel/01.gif",
+          "sha256": "5d74c417140bb1967a2e0ec63269dee5f4b32ac64531a62335d3188152bc7f99",
+          "frames": 24,
+          "duration_ms": 1440
+        },
+        {
+          "id": "02",
+          "caption": "这把不算",
+          "file": "docs/examples/trump-pixel/02.gif",
+          "sha256": "3340fc9c2b0c73559fb91e5685a999e1fb8e736c5133c53230b0a9efb9b765c0",
+          "frames": 24,
+          "duration_ms": 1440
+        },
+        {
+          "id": "03",
+          "caption": "建议向我道歉",
+          "file": "docs/examples/trump-pixel/03.gif",
+          "sha256": "0e723318f9660ed73b95832eed417f1d6a38e8dc95dd116d33d22fc35562bbbb",
+          "frames": 24,
+          "duration_ms": 1440
+        },
+        {
+          "id": "04",
+          "caption": "你被我关税了",
+          "file": "docs/examples/trump-pixel/04.gif",
+          "sha256": "54fefafd81bfb1cfd5265e56181117513a496a46fc4c7f09d6cf344d134f6ffb",
+          "frames": 24,
+          "duration_ms": 1440
+        },
+        {
+          "id": "05",
+          "caption": "懂王正在加载",
+          "file": "docs/examples/trump-pixel/05.gif",
+          "sha256": "eb99be17cca00ab4a5aa5eb1cd5487ad2bfbc7d2f03b37b4ebe03388497ed322",
+          "frames": 24,
+          "duration_ms": 1440
+        },
+        {
+          "id": "07",
+          "caption": "钱包飞蛾（无字版）",
+          "file": "docs/examples/trump-pixel/07.gif",
+          "sha256": "bce2d7ae58128c102b568391736957f4bb61ec5bdbb0662495a6a0360c6b529c",
+          "frames": 24,
+          "duration_ms": 1440
+        },
+        {
+          "id": "08",
+          "caption": "看不懂演讲稿（无字版）",
+          "file": "docs/examples/trump-pixel/08.gif",
+          "sha256": "e5c6b6ede149be8e3088bd7e19a9381de1b7fe933a104143400a3f4cbdc832bd",
+          "frames": 24,
+          "duration_ms": 1440
+        }
+      ]
     }
   ],
   "featured": [
+    [
+      "whale-battle",
+      "02"
+    ],
+    [
+      "trump-pixel",
+      "01"
+    ],
+    [
+      "whale-battle",
+      "01"
+    ],
+    [
+      "trump-pixel",
+      "07"
+    ],
     [
       "cat-daily",
       "01"
@@ -439,5 +539,6 @@
       "doodle-life",
       "08"
     ]
-  ]
+  ],
+  "release_tag": "v0.3.1-preview"
 }

@@ -8,7 +8,9 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DOWNLOAD = 'https://github.com/Jensen-02/onepic-gif-stickers/releases/download/v0.3.0-preview/onepic-gif-demos-46.zip'
+def download_url(data):
+    tag = data.get('release_tag', 'v0.3.0-preview')
+    return f'https://github.com/Jensen-02/onepic-gif-stickers/releases/download/{tag}/onepic-gif-demos-{data["count"]}.zip'
 
 
 def image_table(items, prefix):
@@ -29,7 +31,7 @@ def markdown(data, prefix):
     parts = [
         '## 表情包展厅', '',
         f"这里收录 **{len(data['packs'])} 个系列、{data['count']} 张 GIF**。点击动图查看原尺寸，各系列默认收起，点标题即可展开。", '',
-        f'[下载全部 {data["count"]} 张示例]({DOWNLOAD}) · ZIP 内附离线展厅，解压后打开 `index.html`。', '',
+        f'[下载全部 {data["count"]} 张示例]({download_url(data)}) · ZIP 内附离线展厅，解压后打开 `index.html`。', '',
         '### 精选动态预览', '', image_table(featured, prefix), '',
         '▲ 同一张主图可以换画风，每张表情包的动作则跟着文案走。', ''
     ]
@@ -56,7 +58,7 @@ def offline_html(data, prefix):
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>一图成套 · 表情包展厅</title><style>
 *{{box-sizing:border-box}}body{{margin:0;background:#f4f6f8;color:#202631;font-family:system-ui,"Microsoft YaHei",sans-serif}}main{{max-width:1060px;margin:auto;padding:48px 24px}}.eyebrow{{font-size:13px;color:#536d84;letter-spacing:2px}}h1{{font-size:36px;margin:12px 0}}p{{color:#5a6473;line-height:1.8}}.grid{{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}}.card{{display:block;background:white;border:1px solid #e6eaf0;border-radius:16px;padding:12px;text-align:center;color:inherit;text-decoration:none}}.card:hover{{border-color:#7c9bbe}}.card img{{display:block;width:100%;aspect-ratio:1;object-fit:contain;border-radius:10px}}.card span{{display:block;padding:12px 0 4px;font-weight:600}}details{{margin-top:16px;background:#fff;border:1px solid #e0e5eb;border-radius:16px;padding:20px}}summary{{cursor:pointer;font-size:19px;font-weight:650}}summary small{{float:right;color:#75808e}}details .grid{{margin-top:20px}}h2{{margin-top:32px;font-size:22px}}.download{{display:inline-block;padding:11px 18px;background:#233f5d;color:white;border-radius:10px;text-decoration:none}}footer{{padding-top:32px;font-size:13px;color:#697687}}@media(max-width:700px){{.grid{{grid-template-columns:repeat(2,minmax(0,1fr))}}h1{{font-size:28px}}main{{padding:28px 16px}}}}
-</style></head><body><main><div class="eyebrow">ONEPIC GIF STICKERS</div><h1>一图成套 · 表情包展厅</h1><p>{len(data['packs'])} 个系列 · {data['count']} 张 GIF。点击动图查看原尺寸，点系列标题展开全部。</p><a class="download" href="{DOWNLOAD}">下载全部示例</a><h2>精选动态预览</h2>{featured}<h2>全部系列</h2>{sections}<footer>椰子的AI小岛 · <a href="https://github.com/Jensen-02/onepic-gif-stickers">项目主页</a></footer></main></body></html>'''
+</style></head><body><main><div class="eyebrow">ONEPIC GIF STICKERS</div><h1>一图成套 · 表情包展厅</h1><p>{len(data['packs'])} 个系列 · {data['count']} 张 GIF。点击动图查看原尺寸，点系列标题展开全部。</p><a class="download" href="{download_url(data)}">下载全部示例</a><h2>精选动态预览</h2>{featured}<h2>全部系列</h2>{sections}<footer>椰子的AI小岛 · <a href="https://github.com/Jensen-02/onepic-gif-stickers">项目主页</a></footer></main></body></html>'''
 
 
 def main():
