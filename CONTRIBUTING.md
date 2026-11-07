@@ -9,8 +9,8 @@
 ## 修改项目
 
 1. 创建分支，保持修改集中于一个问题。
-2. 代码改动运行 `python -m unittest discover -s skills/theme-gif-stickers/tests -v`；变更动作策略时提供真实的前后播放对比。
-3. 技能变更修改 `skills/theme-gif-stickers/`，同步相关文档。身份保持、动作设计和视觉判断由模型负责，编码与文件约束由程序检查。
+2. 代码改动运行 `python -m unittest discover -s skills/onepic-gif-stickers/tests -v`；变更动作策略时提供真实的前后播放对比。
+3. 技能变更修改 `skills/onepic-gif-stickers/`，同步相关文档。身份保持、动作设计和视觉判断由模型负责，编码与文件约束由程序检查。
 4. 不将源图、临时帧或本机绝对路径写进技能。新增风格样图需说明来源与分发权限。
 5. 提交 PR，说明问题、改动和实际验证范围；未做的测试明确注明。
 

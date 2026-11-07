@@ -1,5 +1,5 @@
 ---
-name: theme-gif-stickers
+name: onepic-gif-stickers
 description: 在 Codex 中用内置图片生成能力，将人物、宠物或 IP 主图与主题直接制作成独立可发送的 GIF 表情包，完成文案、动作、连续姿势、编码与验收。调用本技能制作表情包时默认交付动图，即使用户未重复写 GIF；支持单条重做或追加。不用于普通照片风格化或无角色的视频剪辑。
 ---
 

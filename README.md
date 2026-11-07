@@ -6,23 +6,33 @@ OnePic GIF Stickers 是一个 Codex 技能。你上传图片、说出主题，Co
 
 > 用这张图做一套不想上班的表情包。
 
-最终交付一套独立 `.gif` 动图和下载包，静态样张只是中间步骤。项目名称为 `onepic-gif-stickers`，在 Codex 中用 **`$theme-gif-stickers`** 调用。
+最终交付一套独立 `.gif` 动图和下载包，静态样张只是中间步骤。项目名称为 `onepic-gif-stickers`，在 Codex 中用 **`$onepic-gif-stickers`** 调用。
 
 ## 表情包展厅
 
-这里收录 **8 个系列、55 张 GIF**。点击动图查看原尺寸，各系列默认收起，点标题即可展开。
+这里收录 **9 个系列、60 张 GIF**。点击动图查看原尺寸，各系列默认收起，点标题即可展开。
 
-[下载全部 55 张示例](https://github.com/Jensen-02/onepic-gif-stickers/releases/download/v0.3.1-preview/onepic-gif-demos-55.zip) · ZIP 内附离线展厅，解压后打开 `index.html`。
+[下载全部 60 张示例](https://github.com/Jensen-02/onepic-gif-stickers/releases/download/v0.3.2-preview/onepic-gif-demos-60.zip) · ZIP 内附离线展厅，解压后打开 `index.html`。
 
 ### 精选动态预览
 
 <table>
-<tr><td align="center"><a href="docs/examples/whale-battle/02.gif"><img src="docs/examples/whale-battle/02.gif" width="180" alt="正面骑马冲刺"></a><br>正面骑马冲刺</td><td align="center"><a href="docs/examples/trump-pixel/01.gif"><img src="docs/examples/trump-pixel/01.gif" width="180" alt="已读，制裁"></a><br>已读，制裁</td><td align="center"><a href="docs/examples/whale-battle/01.gif"><img src="docs/examples/whale-battle/01.gif" width="180" alt="骑马挥关刀"></a><br>骑马挥关刀</td><td align="center"><a href="docs/examples/trump-pixel/07.gif"><img src="docs/examples/trump-pixel/07.gif" width="180" alt="钱包飞蛾（无字版）"></a><br>钱包飞蛾（无字版）</td></tr>
-<tr><td align="center"><a href="docs/examples/cat-hello.gif"><img src="docs/examples/cat-hello.gif" width="180" alt="嗨喵"></a><br>嗨喵</td><td align="center"><a href="docs/examples/tin-daily/02.gif"><img src="docs/examples/tin-daily/02.gif" width="180" alt="好耶"></a><br>好耶</td><td align="center"><a href="docs/examples/balloon-hello/01.gif"><img src="docs/examples/balloon-hello/01.gif" width="180" alt="哈喽"></a><br>哈喽</td><td align="center"><a href="docs/examples/doodle-life/04.gif"><img src="docs/examples/doodle-life/04.gif" width="180" alt="奶茶续命"></a><br>奶茶续命</td></tr>
-<tr><td align="center"><a href="docs/examples/huo-daily/03.gif"><img src="docs/examples/huo-daily/03.gif" width="180" alt="过来抱抱"></a><br>过来抱抱</td><td align="center"><a href="docs/examples/office-cat/04.gif"><img src="docs/examples/office-cat/04.gif" width="180" alt="周一别找我"></a><br>周一别找我</td><td align="center"><a href="docs/examples/cat-goodnight.gif"><img src="docs/examples/cat-goodnight.gif" width="180" alt="晚安喵"></a><br>晚安喵</td><td align="center"><a href="docs/examples/doodle-life/08.gif"><img src="docs/examples/doodle-life/08.gif" width="180" alt="快乐躺平"></a><br>快乐躺平</td></tr>
+<tr><td align="center"><a href="docs/examples/whale-office/01.gif"><img src="docs/examples/whale-office/01.gif" width="180" alt="再睡五分钟"></a><br>再睡五分钟</td><td align="center"><a href="docs/examples/whale-office/02.gif"><img src="docs/examples/whale-office/02.gif" width="180" alt="不想上班"></a><br>不想上班</td><td align="center"><a href="docs/examples/whale-office/05.gif"><img src="docs/examples/whale-office/05.gif" width="180" alt="摸鱼中"></a><br>摸鱼中</td><td align="center"><a href="docs/examples/whale-office/06.gif"><img src="docs/examples/whale-office/06.gif" width="180" alt="怎么还没下班"></a><br>怎么还没下班</td></tr>
+<tr><td align="center"><a href="docs/examples/whale-battle/02.gif"><img src="docs/examples/whale-battle/02.gif" width="180" alt="正面骑马冲刺"></a><br>正面骑马冲刺</td><td align="center"><a href="docs/examples/trump-pixel/01.gif"><img src="docs/examples/trump-pixel/01.gif" width="180" alt="已读，制裁"></a><br>已读，制裁</td><td align="center"><a href="docs/examples/trump-pixel/07.gif"><img src="docs/examples/trump-pixel/07.gif" width="180" alt="钱包飞蛾（无字版）"></a><br>钱包飞蛾（无字版）</td><td align="center"><a href="docs/examples/cat-hello.gif"><img src="docs/examples/cat-hello.gif" width="180" alt="嗨喵"></a><br>嗨喵</td></tr>
+<tr><td align="center"><a href="docs/examples/tin-daily/02.gif"><img src="docs/examples/tin-daily/02.gif" width="180" alt="好耶"></a><br>好耶</td><td align="center"><a href="docs/examples/balloon-hello/01.gif"><img src="docs/examples/balloon-hello/01.gif" width="180" alt="哈喽"></a><br>哈喽</td><td align="center"><a href="docs/examples/doodle-life/04.gif"><img src="docs/examples/doodle-life/04.gif" width="180" alt="奶茶续命"></a><br>奶茶续命</td><td align="center"><a href="docs/examples/huo-daily/03.gif"><img src="docs/examples/huo-daily/03.gif" width="180" alt="过来抱抱"></a><br>过来抱抱</td></tr>
 </table>
 
 ▲ 同一张主图可以换画风，每张表情包的动作则跟着文案走。
+
+<details>
+<summary><strong>鲸鱼娘 · 不想上班 · 6 张 · 点击展开</strong></summary>
+
+<table>
+<tr><td align="center"><a href="docs/examples/whale-office/01.gif"><img src="docs/examples/whale-office/01.gif" width="180" alt="再睡五分钟"></a><br>再睡五分钟</td><td align="center"><a href="docs/examples/whale-office/02.gif"><img src="docs/examples/whale-office/02.gif" width="180" alt="不想上班"></a><br>不想上班</td><td align="center"><a href="docs/examples/whale-office/03.gif"><img src="docs/examples/whale-office/03.gif" width="180" alt="电量耗尽"></a><br>电量耗尽</td><td align="center"><a href="docs/examples/whale-office/04.gif"><img src="docs/examples/whale-office/04.gif" width="180" alt="别催我啦"></a><br>别催我啦</td></tr>
+<tr><td align="center"><a href="docs/examples/whale-office/05.gif"><img src="docs/examples/whale-office/05.gif" width="180" alt="摸鱼中"></a><br>摸鱼中</td><td align="center"><a href="docs/examples/whale-office/06.gif"><img src="docs/examples/whale-office/06.gif" width="180" alt="怎么还没下班"></a><br>怎么还没下班</td></tr>
+</table>
+
+</details>
 
 <details>
 <summary><strong>小猫卡通 · 日常交流 · 6 张 · 点击展开</strong></summary>
@@ -85,10 +95,10 @@ OnePic GIF Stickers 是一个 Codex 技能。你上传图片、说出主题，Co
 </details>
 
 <details>
-<summary><strong>鲸鱼娘 · 骑马动作 · 2 张 · 点击展开</strong></summary>
+<summary><strong>鲸鱼娘 · 骑马动作 · 1 张 · 点击展开</strong></summary>
 
 <table>
-<tr><td align="center"><a href="docs/examples/whale-battle/01.gif"><img src="docs/examples/whale-battle/01.gif" width="180" alt="骑马挥关刀"></a><br>骑马挥关刀</td><td align="center"><a href="docs/examples/whale-battle/02.gif"><img src="docs/examples/whale-battle/02.gif" width="180" alt="正面骑马冲刺"></a><br>正面骑马冲刺</td></tr>
+<tr><td align="center"><a href="docs/examples/whale-battle/02.gif"><img src="docs/examples/whale-battle/02.gif" width="180" alt="正面骑马冲刺"></a><br>正面骑马冲刺</td></tr>
 </table>
 
 </details>
@@ -120,13 +130,13 @@ OnePic GIF Stickers 是一个 Codex 技能。你上传图片、说出主题，Co
 请你帮我安装这个表情包skill：https://github.com/Jensen-02/onepic-gif-stickers
 ```
 
-也可从 [Releases](https://github.com/Jensen-02/onepic-gif-stickers/releases) 下载技能 ZIP，解压后将整个 `theme-gif-stickers` 文件夹放入 `$CODEX_HOME/skills/`；未设置 `CODEX_HOME` 时使用用户目录下的 `.codex/skills/`。
+也可从 [Releases](https://github.com/Jensen-02/onepic-gif-stickers/releases) 下载技能 ZIP，解压后将整个 `onepic-gif-stickers` 文件夹放入 `$CODEX_HOME/skills/`；未设置 `CODEX_HOME` 时使用用户目录下的 `.codex/skills/`。
 
 安装后在新聊天里选择「一图成套 · GIF 表情包工坊」。若没有显示，先刷新或重新打开 Codex。
 
 ## 怎么用
 
-选择技能后上传主图，再用一句话说明主题、画风和数量。也可以在消息中用 `$theme-gif-stickers` 调用；这是当前技能标识，和展厅里的中文展示名对应。
+选择「一图成套 · GIF 表情包工坊」后上传主图，再说出主题、画风和数量。手动调用时，在消息开头输入 `$onepic-gif-stickers`。
 
 ```text
 根据这张照片，把我做成Q版，做8张日常聊天GIF表情包。
@@ -168,8 +178,8 @@ OnePic GIF Stickers 是一个 Codex 技能。你上传图片、说出主题，Co
 <summary><strong>二维卡通 · 6 种 · 点击展开</strong></summary>
 
 <table>
-<tr><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S02-chibi.png"><img src="skills/theme-gif-stickers/assets/styles/S02-chibi.png" width="180" alt="S02 · Q版大头"></a><br><strong>S02 · Q版大头</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S07-anime-reaction.png"><img src="skills/theme-gif-stickers/assets/styles/S07-anime-reaction.png" width="180" alt="S07 · 日漫反应"></a><br><strong>S07 · 日漫反应</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S08-flat-cartoon.png"><img src="skills/theme-gif-stickers/assets/styles/S08-flat-cartoon.png" width="180" alt="S08 · 美式卡通"></a><br><strong>S08 · 美式卡通</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S09-ink-comic.png"><img src="skills/theme-gif-stickers/assets/styles/S09-ink-comic.png" width="180" alt="S09 · 黑白漫画"></a><br><strong>S09 · 黑白漫画</strong></td></tr>
-<tr><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S10-doodle.png"><img src="skills/theme-gif-stickers/assets/styles/S10-doodle.png" width="180" alt="S10 · 手绘涂鸦"></a><br><strong>S10 · 手绘涂鸦</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S22-rubber-hose.png"><img src="skills/theme-gif-stickers/assets/styles/S22-rubber-hose.png" width="180" alt="S22 · 橡皮管动画"></a><br><strong>S22 · 橡皮管动画</strong></td></tr>
+<tr><td align="center"><a href="skills/onepic-gif-stickers/assets/styles/S02-chibi.png"><img src="skills/onepic-gif-stickers/assets/styles/S02-chibi.png" width="180" alt="S02 · Q版大头"></a><br><strong>S02 · Q版大头</strong></td><td align="center"><a href="skills/onepic-gif-stickers/assets/styles/S07-anime-reaction.png"><img src="skills/onepic-gif-stickers/assets/styles/S07-anime-reaction.png" width="180" alt="S07 · 日漫反应"></a><br><strong>S07 · 日漫反应</strong></td><td align="center"><a href="skills/onepic-gif-stickers/assets/styles/S08-flat-cartoon.png"><img src="skills/onepic-gif-stickers/assets/styles/S08-flat-cartoon.png" width="180" alt="S08 · 美式卡通"></a><br><strong>S08 · 美式卡通</strong></td><td align="center"><a href="skills/onepic-gif-stickers/assets/styles/S09-ink-comic.png"><img src="skills/onepic-gif-stickers/assets/styles/S09-ink-comic.png" width="180" alt="S09 · 黑白漫画"></a><br><strong>S09 · 黑白漫画</strong></td></tr>
+<tr><td align="center"><a href="skills/onepic-gif-stickers/assets/styles/S10-doodle.png"><img src="skills/onepic-gif-stickers/assets/styles/S10-doodle.png" width="180" alt="S10 · 手绘涂鸦"></a><br><strong>S10 · 手绘涂鸦</strong></td><td align="center"><a href="skills/onepic-gif-stickers/assets/styles/S22-rubber-hose.png"><img src="skills/onepic-gif-stickers/assets/styles/S22-rubber-hose.png" width="180" alt="S22 · 橡皮管动画"></a><br><strong>S22 · 橡皮管动画</strong></td></tr>
 </table>
 
 </details>
@@ -178,9 +188,9 @@ OnePic GIF Stickers 是一个 Codex 技能。你上传图片、说出主题，Co
 <summary><strong>立体玩偶与材质 · 10 种 · 点击展开</strong></summary>
 
 <table>
-<tr><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S03-soft-clay.png"><img src="skills/theme-gif-stickers/assets/styles/S03-soft-clay.png" width="180" alt="S03 · 软陶黏土"></a><br><strong>S03 · 软陶黏土</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S04-plush.png"><img src="skills/theme-gif-stickers/assets/styles/S04-plush.png" width="180" alt="S04 · 毛绒玩偶"></a><br><strong>S04 · 毛绒玩偶</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S05-vinyl.png"><img src="skills/theme-gif-stickers/assets/styles/S05-vinyl.png" width="180" alt="S05 · 搪胶潮玩"></a><br><strong>S05 · 搪胶潮玩</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S12-stylized-3d.png"><img src="skills/theme-gif-stickers/assets/styles/S12-stylized-3d.png" width="180" alt="S12 · 半写实3D"></a><br><strong>S12 · 半写实3D</strong></td></tr>
-<tr><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S21-carved-wood.png"><img src="skills/theme-gif-stickers/assets/styles/S21-carved-wood.png" width="180" alt="S21 · 木雕积木"></a><br><strong>S21 · 木雕积木</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S23-knitted.png"><img src="skills/theme-gif-stickers/assets/styles/S23-knitted.png" width="180" alt="S23 · 针织线偶"></a><br><strong>S23 · 针织线偶</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S27-balloon-sculpture.png"><img src="skills/theme-gif-stickers/assets/styles/S27-balloon-sculpture.png" width="180" alt="S27 · 气球扭塑"></a><br><strong>S27 · 气球扭塑</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S28-gummy-character.png"><img src="skills/theme-gif-stickers/assets/styles/S28-gummy-character.png" width="180" alt="S28 · 软糖小人"></a><br><strong>S28 · 软糖小人</strong></td></tr>
-<tr><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S29-tin-clockwork.png"><img src="skills/theme-gif-stickers/assets/styles/S29-tin-clockwork.png" width="180" alt="S29 · 发条铁皮"></a><br><strong>S29 · 发条铁皮</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S30-theatre-puppet.png"><img src="skills/theme-gif-stickers/assets/styles/S30-theatre-puppet.png" width="180" alt="S30 · 布偶剧角色"></a><br><strong>S30 · 布偶剧角色</strong></td></tr>
+<tr><td align="center"><a href="skills/onepic-gif-stickers/assets/styles/S03-soft-clay.png"><img src="skills/onepic-gif-stickers/assets/styles/S03-soft-clay.png" width="180" alt="S03 · 软陶黏土"></a><br><strong>S03 · 软陶黏土</strong></td><td align="center"><a href="skills/onepic-gif-stickers/assets/styles/S04-plush.png"><img src="skills/onepic-gif-stickers/assets/styles/S04-plush.png" width="180" alt="S04 · 毛绒玩偶"></a><br><strong>S04 · 毛绒玩偶</strong></td><td align="center"><a href="skills/onepic-gif-stickers/assets/styles/S05-vinyl.png"><img src="skills/onepic-gif-stickers/assets/styles/S05-vinyl.png" width="180" alt="S05 · 搪胶潮玩"></a><br><strong>S05 · 搪胶潮玩</strong></td><td align="center"><a href="skills/onepic-gif-stickers/assets/styles/S12-stylized-3d.png"><img src="skills/onepic-gif-stickers/assets/styles/S12-stylized-3d.png" width="180" alt="S12 · 半写实3D"></a><br><strong>S12 · 半写实3D</strong></td></tr>
+<tr><td align="center"><a href="skills/onepic-gif-stickers/assets/styles/S21-carved-wood.png"><img src="skills/onepic-gif-stickers/assets/styles/S21-carved-wood.png" width="180" alt="S21 · 木雕积木"></a><br><strong>S21 · 木雕积木</strong></td><td align="center"><a href="skills/onepic-gif-stickers/assets/styles/S23-knitted.png"><img src="skills/onepic-gif-stickers/assets/styles/S23-knitted.png" width="180" alt="S23 · 针织线偶"></a><br><strong>S23 · 针织线偶</strong></td><td align="center"><a href="skills/onepic-gif-stickers/assets/styles/S27-balloon-sculpture.png"><img src="skills/onepic-gif-stickers/assets/styles/S27-balloon-sculpture.png" width="180" alt="S27 · 气球扭塑"></a><br><strong>S27 · 气球扭塑</strong></td><td align="center"><a href="skills/onepic-gif-stickers/assets/styles/S28-gummy-character.png"><img src="skills/onepic-gif-stickers/assets/styles/S28-gummy-character.png" width="180" alt="S28 · 软糖小人"></a><br><strong>S28 · 软糖小人</strong></td></tr>
+<tr><td align="center"><a href="skills/onepic-gif-stickers/assets/styles/S29-tin-clockwork.png"><img src="skills/onepic-gif-stickers/assets/styles/S29-tin-clockwork.png" width="180" alt="S29 · 发条铁皮"></a><br><strong>S29 · 发条铁皮</strong></td><td align="center"><a href="skills/onepic-gif-stickers/assets/styles/S30-theatre-puppet.png"><img src="skills/onepic-gif-stickers/assets/styles/S30-theatre-puppet.png" width="180" alt="S30 · 布偶剧角色"></a><br><strong>S30 · 布偶剧角色</strong></td></tr>
 </table>
 
 </details>
@@ -189,8 +199,8 @@ OnePic GIF Stickers 是一个 Codex 技能。你上传图片、说出主题，Co
 <summary><strong>纸艺与传统工艺 · 5 种 · 点击展开</strong></summary>
 
 <table>
-<tr><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S01-paper-meme.png"><img src="skills/theme-gif-stickers/assets/styles/S01-paper-meme.png" width="180" alt="S01 · 剪纸Meme"></a><br><strong>S01 · 剪纸Meme</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S11-layered-paper.png"><img src="skills/theme-gif-stickers/assets/styles/S11-layered-paper.png" width="180" alt="S11 · 立体纸雕"></a><br><strong>S11 · 立体纸雕</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S24-origami.png"><img src="skills/theme-gif-stickers/assets/styles/S24-origami.png" width="180" alt="S24 · 折纸几何"></a><br><strong>S24 · 折纸几何</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S25-shadow-puppet.png"><img src="skills/theme-gif-stickers/assets/styles/S25-shadow-puppet.png" width="180" alt="S25 · 镂刻皮影"></a><br><strong>S25 · 镂刻皮影</strong></td></tr>
-<tr><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S26-blue-porcelain.png"><img src="skills/theme-gif-stickers/assets/styles/S26-blue-porcelain.png" width="180" alt="S26 · 青花瓷偶"></a><br><strong>S26 · 青花瓷偶</strong></td></tr>
+<tr><td align="center"><a href="skills/onepic-gif-stickers/assets/styles/S01-paper-meme.png"><img src="skills/onepic-gif-stickers/assets/styles/S01-paper-meme.png" width="180" alt="S01 · 剪纸Meme"></a><br><strong>S01 · 剪纸Meme</strong></td><td align="center"><a href="skills/onepic-gif-stickers/assets/styles/S11-layered-paper.png"><img src="skills/onepic-gif-stickers/assets/styles/S11-layered-paper.png" width="180" alt="S11 · 立体纸雕"></a><br><strong>S11 · 立体纸雕</strong></td><td align="center"><a href="skills/onepic-gif-stickers/assets/styles/S24-origami.png"><img src="skills/onepic-gif-stickers/assets/styles/S24-origami.png" width="180" alt="S24 · 折纸几何"></a><br><strong>S24 · 折纸几何</strong></td><td align="center"><a href="skills/onepic-gif-stickers/assets/styles/S25-shadow-puppet.png"><img src="skills/onepic-gif-stickers/assets/styles/S25-shadow-puppet.png" width="180" alt="S25 · 镂刻皮影"></a><br><strong>S25 · 镂刻皮影</strong></td></tr>
+<tr><td align="center"><a href="skills/onepic-gif-stickers/assets/styles/S26-blue-porcelain.png"><img src="skills/onepic-gif-stickers/assets/styles/S26-blue-porcelain.png" width="180" alt="S26 · 青花瓷偶"></a><br><strong>S26 · 青花瓷偶</strong></td></tr>
 </table>
 
 </details>
@@ -199,8 +209,8 @@ OnePic GIF Stickers 是一个 Codex 技能。你上传图片、说出主题，Co
 <summary><strong>手绘与版画 · 6 种 · 点击展开</strong></summary>
 
 <table>
-<tr><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S15-colored-pencil.png"><img src="skills/theme-gif-stickers/assets/styles/S15-colored-pencil.png" width="180" alt="S15 · 彩铅绘本"></a><br><strong>S15 · 彩铅绘本</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S16-woodcut.png"><img src="skills/theme-gif-stickers/assets/styles/S16-woodcut.png" width="180" alt="S16 · 套色木刻"></a><br><strong>S16 · 套色木刻</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S17-watercolor.png"><img src="skills/theme-gif-stickers/assets/styles/S17-watercolor.png" width="180" alt="S17 · 水彩绘本"></a><br><strong>S17 · 水彩绘本</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S18-gongbi.png"><img src="skills/theme-gif-stickers/assets/styles/S18-gongbi.png" width="180" alt="S18 · 新中式工笔"></a><br><strong>S18 · 新中式工笔</strong></td></tr>
-<tr><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S34-chalk-drawing.png"><img src="skills/theme-gif-stickers/assets/styles/S34-chalk-drawing.png" width="180" alt="S34 · 粉笔速写"></a><br><strong>S34 · 粉笔速写</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S36-duotone-riso.png"><img src="skills/theme-gif-stickers/assets/styles/S36-duotone-riso.png" width="180" alt="S36 · 双色孔版"></a><br><strong>S36 · 双色孔版</strong></td></tr>
+<tr><td align="center"><a href="skills/onepic-gif-stickers/assets/styles/S15-colored-pencil.png"><img src="skills/onepic-gif-stickers/assets/styles/S15-colored-pencil.png" width="180" alt="S15 · 彩铅绘本"></a><br><strong>S15 · 彩铅绘本</strong></td><td align="center"><a href="skills/onepic-gif-stickers/assets/styles/S16-woodcut.png"><img src="skills/onepic-gif-stickers/assets/styles/S16-woodcut.png" width="180" alt="S16 · 套色木刻"></a><br><strong>S16 · 套色木刻</strong></td><td align="center"><a href="skills/onepic-gif-stickers/assets/styles/S17-watercolor.png"><img src="skills/onepic-gif-stickers/assets/styles/S17-watercolor.png" width="180" alt="S17 · 水彩绘本"></a><br><strong>S17 · 水彩绘本</strong></td><td align="center"><a href="skills/onepic-gif-stickers/assets/styles/S18-gongbi.png"><img src="skills/onepic-gif-stickers/assets/styles/S18-gongbi.png" width="180" alt="S18 · 新中式工笔"></a><br><strong>S18 · 新中式工笔</strong></td></tr>
+<tr><td align="center"><a href="skills/onepic-gif-stickers/assets/styles/S34-chalk-drawing.png"><img src="skills/onepic-gif-stickers/assets/styles/S34-chalk-drawing.png" width="180" alt="S34 · 粉笔速写"></a><br><strong>S34 · 粉笔速写</strong></td><td align="center"><a href="skills/onepic-gif-stickers/assets/styles/S36-duotone-riso.png"><img src="skills/onepic-gif-stickers/assets/styles/S36-duotone-riso.png" width="180" alt="S36 · 双色孔版"></a><br><strong>S36 · 双色孔版</strong></td></tr>
 </table>
 
 </details>
@@ -209,8 +219,8 @@ OnePic GIF Stickers 是一个 Codex 技能。你上传图片、说出主题，Co
 <summary><strong>数字几何与未来 · 6 种 · 点击展开</strong></summary>
 
 <table>
-<tr><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S06-pixel.png"><img src="skills/theme-gif-stickers/assets/styles/S06-pixel.png" width="180" alt="S06 · 复古像素"></a><br><strong>S06 · 复古像素</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S13-low-poly.png"><img src="skills/theme-gif-stickers/assets/styles/S13-low-poly.png" width="180" alt="S13 · 低多边形"></a><br><strong>S13 · 低多边形</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S14-voxel.png"><img src="skills/theme-gif-stickers/assets/styles/S14-voxel.png" width="180" alt="S14 · 等距体素"></a><br><strong>S14 · 等距体素</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S31-neon-wireframe.png"><img src="skills/theme-gif-stickers/assets/styles/S31-neon-wireframe.png" width="180" alt="S31 · 霓虹线框"></a><br><strong>S31 · 霓虹线框</strong></td></tr>
-<tr><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S32-minimal-geometry.png"><img src="skills/theme-gif-stickers/assets/styles/S32-minimal-geometry.png" width="180" alt="S32 · 极简几何"></a><br><strong>S32 · 极简几何</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S37-cyberpunk.png"><img src="skills/theme-gif-stickers/assets/styles/S37-cyberpunk.png" width="180" alt="S37 · 赛博朋克"></a><br><strong>S37 · 赛博朋克</strong></td></tr>
+<tr><td align="center"><a href="skills/onepic-gif-stickers/assets/styles/S06-pixel.png"><img src="skills/onepic-gif-stickers/assets/styles/S06-pixel.png" width="180" alt="S06 · 复古像素"></a><br><strong>S06 · 复古像素</strong></td><td align="center"><a href="skills/onepic-gif-stickers/assets/styles/S13-low-poly.png"><img src="skills/onepic-gif-stickers/assets/styles/S13-low-poly.png" width="180" alt="S13 · 低多边形"></a><br><strong>S13 · 低多边形</strong></td><td align="center"><a href="skills/onepic-gif-stickers/assets/styles/S14-voxel.png"><img src="skills/onepic-gif-stickers/assets/styles/S14-voxel.png" width="180" alt="S14 · 等距体素"></a><br><strong>S14 · 等距体素</strong></td><td align="center"><a href="skills/onepic-gif-stickers/assets/styles/S31-neon-wireframe.png"><img src="skills/onepic-gif-stickers/assets/styles/S31-neon-wireframe.png" width="180" alt="S31 · 霓虹线框"></a><br><strong>S31 · 霓虹线框</strong></td></tr>
+<tr><td align="center"><a href="skills/onepic-gif-stickers/assets/styles/S32-minimal-geometry.png"><img src="skills/onepic-gif-stickers/assets/styles/S32-minimal-geometry.png" width="180" alt="S32 · 极简几何"></a><br><strong>S32 · 极简几何</strong></td><td align="center"><a href="skills/onepic-gif-stickers/assets/styles/S37-cyberpunk.png"><img src="skills/onepic-gif-stickers/assets/styles/S37-cyberpunk.png" width="180" alt="S37 · 赛博朋克"></a><br><strong>S37 · 赛博朋克</strong></td></tr>
 </table>
 
 </details>
@@ -219,7 +229,7 @@ OnePic GIF Stickers 是一个 Codex 技能。你上传图片、说出主题，Co
 <summary><strong>装饰工艺与实验 · 4 种 · 点击展开</strong></summary>
 
 <table>
-<tr><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S19-stained-glass.png"><img src="skills/theme-gif-stickers/assets/styles/S19-stained-glass.png" width="180" alt="S19 · 彩绘玻璃"></a><br><strong>S19 · 彩绘玻璃</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S20-cloisonne.png"><img src="skills/theme-gif-stickers/assets/styles/S20-cloisonne.png" width="180" alt="S20 · 掐丝珐琅"></a><br><strong>S20 · 掐丝珐琅</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S33-tile-mosaic.png"><img src="skills/theme-gif-stickers/assets/styles/S33-tile-mosaic.png" width="180" alt="S33 · 瓷砖马赛克"></a><br><strong>S33 · 瓷砖马赛克</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S35-pinscreen-relief.png"><img src="skills/theme-gif-stickers/assets/styles/S35-pinscreen-relief.png" width="180" alt="S35 · 针点浮雕"></a><br><strong>S35 · 针点浮雕</strong></td></tr>
+<tr><td align="center"><a href="skills/onepic-gif-stickers/assets/styles/S19-stained-glass.png"><img src="skills/onepic-gif-stickers/assets/styles/S19-stained-glass.png" width="180" alt="S19 · 彩绘玻璃"></a><br><strong>S19 · 彩绘玻璃</strong></td><td align="center"><a href="skills/onepic-gif-stickers/assets/styles/S20-cloisonne.png"><img src="skills/onepic-gif-stickers/assets/styles/S20-cloisonne.png" width="180" alt="S20 · 掐丝珐琅"></a><br><strong>S20 · 掐丝珐琅</strong></td><td align="center"><a href="skills/onepic-gif-stickers/assets/styles/S33-tile-mosaic.png"><img src="skills/onepic-gif-stickers/assets/styles/S33-tile-mosaic.png" width="180" alt="S33 · 瓷砖马赛克"></a><br><strong>S33 · 瓷砖马赛克</strong></td><td align="center"><a href="skills/onepic-gif-stickers/assets/styles/S35-pinscreen-relief.png"><img src="skills/onepic-gif-stickers/assets/styles/S35-pinscreen-relief.png" width="180" alt="S35 · 针点浮雕"></a><br><strong>S35 · 针点浮雕</strong></td></tr>
 </table>
 
 </details>

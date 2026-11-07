@@ -4,19 +4,29 @@
 
 ## 表情包展厅
 
-这里收录 **8 个系列、55 张 GIF**。点击动图查看原尺寸，各系列默认收起，点标题即可展开。
+这里收录 **9 个系列、60 张 GIF**。点击动图查看原尺寸，各系列默认收起，点标题即可展开。
 
-[下载全部 55 张示例](https://github.com/Jensen-02/onepic-gif-stickers/releases/download/v0.3.1-preview/onepic-gif-demos-55.zip) · ZIP 内附离线展厅，解压后打开 `index.html`。
+[下载全部 60 张示例](https://github.com/Jensen-02/onepic-gif-stickers/releases/download/v0.3.2-preview/onepic-gif-demos-60.zip) · ZIP 内附离线展厅，解压后打开 `index.html`。
 
 ### 精选动态预览
 
 <table>
-<tr><td align="center"><a href="../docs/examples/whale-battle/02.gif"><img src="../docs/examples/whale-battle/02.gif" width="180" alt="正面骑马冲刺"></a><br>正面骑马冲刺</td><td align="center"><a href="../docs/examples/trump-pixel/01.gif"><img src="../docs/examples/trump-pixel/01.gif" width="180" alt="已读，制裁"></a><br>已读，制裁</td><td align="center"><a href="../docs/examples/whale-battle/01.gif"><img src="../docs/examples/whale-battle/01.gif" width="180" alt="骑马挥关刀"></a><br>骑马挥关刀</td><td align="center"><a href="../docs/examples/trump-pixel/07.gif"><img src="../docs/examples/trump-pixel/07.gif" width="180" alt="钱包飞蛾（无字版）"></a><br>钱包飞蛾（无字版）</td></tr>
-<tr><td align="center"><a href="../docs/examples/cat-hello.gif"><img src="../docs/examples/cat-hello.gif" width="180" alt="嗨喵"></a><br>嗨喵</td><td align="center"><a href="../docs/examples/tin-daily/02.gif"><img src="../docs/examples/tin-daily/02.gif" width="180" alt="好耶"></a><br>好耶</td><td align="center"><a href="../docs/examples/balloon-hello/01.gif"><img src="../docs/examples/balloon-hello/01.gif" width="180" alt="哈喽"></a><br>哈喽</td><td align="center"><a href="../docs/examples/doodle-life/04.gif"><img src="../docs/examples/doodle-life/04.gif" width="180" alt="奶茶续命"></a><br>奶茶续命</td></tr>
-<tr><td align="center"><a href="../docs/examples/huo-daily/03.gif"><img src="../docs/examples/huo-daily/03.gif" width="180" alt="过来抱抱"></a><br>过来抱抱</td><td align="center"><a href="../docs/examples/office-cat/04.gif"><img src="../docs/examples/office-cat/04.gif" width="180" alt="周一别找我"></a><br>周一别找我</td><td align="center"><a href="../docs/examples/cat-goodnight.gif"><img src="../docs/examples/cat-goodnight.gif" width="180" alt="晚安喵"></a><br>晚安喵</td><td align="center"><a href="../docs/examples/doodle-life/08.gif"><img src="../docs/examples/doodle-life/08.gif" width="180" alt="快乐躺平"></a><br>快乐躺平</td></tr>
+<tr><td align="center"><a href="../docs/examples/whale-office/01.gif"><img src="../docs/examples/whale-office/01.gif" width="180" alt="再睡五分钟"></a><br>再睡五分钟</td><td align="center"><a href="../docs/examples/whale-office/02.gif"><img src="../docs/examples/whale-office/02.gif" width="180" alt="不想上班"></a><br>不想上班</td><td align="center"><a href="../docs/examples/whale-office/05.gif"><img src="../docs/examples/whale-office/05.gif" width="180" alt="摸鱼中"></a><br>摸鱼中</td><td align="center"><a href="../docs/examples/whale-office/06.gif"><img src="../docs/examples/whale-office/06.gif" width="180" alt="怎么还没下班"></a><br>怎么还没下班</td></tr>
+<tr><td align="center"><a href="../docs/examples/whale-battle/02.gif"><img src="../docs/examples/whale-battle/02.gif" width="180" alt="正面骑马冲刺"></a><br>正面骑马冲刺</td><td align="center"><a href="../docs/examples/trump-pixel/01.gif"><img src="../docs/examples/trump-pixel/01.gif" width="180" alt="已读，制裁"></a><br>已读，制裁</td><td align="center"><a href="../docs/examples/trump-pixel/07.gif"><img src="../docs/examples/trump-pixel/07.gif" width="180" alt="钱包飞蛾（无字版）"></a><br>钱包飞蛾（无字版）</td><td align="center"><a href="../docs/examples/cat-hello.gif"><img src="../docs/examples/cat-hello.gif" width="180" alt="嗨喵"></a><br>嗨喵</td></tr>
+<tr><td align="center"><a href="../docs/examples/tin-daily/02.gif"><img src="../docs/examples/tin-daily/02.gif" width="180" alt="好耶"></a><br>好耶</td><td align="center"><a href="../docs/examples/balloon-hello/01.gif"><img src="../docs/examples/balloon-hello/01.gif" width="180" alt="哈喽"></a><br>哈喽</td><td align="center"><a href="../docs/examples/doodle-life/04.gif"><img src="../docs/examples/doodle-life/04.gif" width="180" alt="奶茶续命"></a><br>奶茶续命</td><td align="center"><a href="../docs/examples/huo-daily/03.gif"><img src="../docs/examples/huo-daily/03.gif" width="180" alt="过来抱抱"></a><br>过来抱抱</td></tr>
 </table>
 
 ▲ 同一张主图可以换画风，每张表情包的动作则跟着文案走。
+
+<details>
+<summary><strong>鲸鱼娘 · 不想上班 · 6 张 · 点击展开</strong></summary>
+
+<table>
+<tr><td align="center"><a href="../docs/examples/whale-office/01.gif"><img src="../docs/examples/whale-office/01.gif" width="180" alt="再睡五分钟"></a><br>再睡五分钟</td><td align="center"><a href="../docs/examples/whale-office/02.gif"><img src="../docs/examples/whale-office/02.gif" width="180" alt="不想上班"></a><br>不想上班</td><td align="center"><a href="../docs/examples/whale-office/03.gif"><img src="../docs/examples/whale-office/03.gif" width="180" alt="电量耗尽"></a><br>电量耗尽</td><td align="center"><a href="../docs/examples/whale-office/04.gif"><img src="../docs/examples/whale-office/04.gif" width="180" alt="别催我啦"></a><br>别催我啦</td></tr>
+<tr><td align="center"><a href="../docs/examples/whale-office/05.gif"><img src="../docs/examples/whale-office/05.gif" width="180" alt="摸鱼中"></a><br>摸鱼中</td><td align="center"><a href="../docs/examples/whale-office/06.gif"><img src="../docs/examples/whale-office/06.gif" width="180" alt="怎么还没下班"></a><br>怎么还没下班</td></tr>
+</table>
+
+</details>
 
 <details>
 <summary><strong>小猫卡通 · 日常交流 · 6 张 · 点击展开</strong></summary>
@@ -79,10 +89,10 @@
 </details>
 
 <details>
-<summary><strong>鲸鱼娘 · 骑马动作 · 2 张 · 点击展开</strong></summary>
+<summary><strong>鲸鱼娘 · 骑马动作 · 1 张 · 点击展开</strong></summary>
 
 <table>
-<tr><td align="center"><a href="../docs/examples/whale-battle/01.gif"><img src="../docs/examples/whale-battle/01.gif" width="180" alt="骑马挥关刀"></a><br>骑马挥关刀</td><td align="center"><a href="../docs/examples/whale-battle/02.gif"><img src="../docs/examples/whale-battle/02.gif" width="180" alt="正面骑马冲刺"></a><br>正面骑马冲刺</td></tr>
+<tr><td align="center"><a href="../docs/examples/whale-battle/02.gif"><img src="../docs/examples/whale-battle/02.gif" width="180" alt="正面骑马冲刺"></a><br>正面骑马冲刺</td></tr>
 </table>
 
 </details>

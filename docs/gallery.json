@@ -1,6 +1,60 @@
 {
-  "count": 55,
+  "count": 60,
   "packs": [
+    {
+      "id": "whale-office",
+      "title": "鲸鱼娘 · 不想上班",
+      "items": [
+        {
+          "id": "01",
+          "caption": "再睡五分钟",
+          "file": "docs/examples/whale-office/01.gif",
+          "sha256": "82d07e897808862a9e73a3b3ead2fea1a517f70784448c1b56542a821312beb2",
+          "frames": 12,
+          "duration_ms": 1440
+        },
+        {
+          "id": "02",
+          "caption": "不想上班",
+          "file": "docs/examples/whale-office/02.gif",
+          "sha256": "d4323848888344cb8c80842229d7eb8d67a199114dd4d36a51444101ca043d21",
+          "frames": 12,
+          "duration_ms": 1440
+        },
+        {
+          "id": "03",
+          "caption": "电量耗尽",
+          "file": "docs/examples/whale-office/03.gif",
+          "sha256": "50d83cac8a9803ca1c880114023181c05bb6886c867fd7d2b161253e72d62028",
+          "frames": 12,
+          "duration_ms": 1440
+        },
+        {
+          "id": "04",
+          "caption": "别催我啦",
+          "file": "docs/examples/whale-office/04.gif",
+          "sha256": "3a0499f9c7b9cd053b704ddde065639ba5031d6c5042c6f0b90acebc04ebcf3a",
+          "frames": 12,
+          "duration_ms": 1440
+        },
+        {
+          "id": "05",
+          "caption": "摸鱼中",
+          "file": "docs/examples/whale-office/05.gif",
+          "sha256": "9e64715b92da08200c28d5456455a82db9dc04937b6873e716b763a1a9892acb",
+          "frames": 12,
+          "duration_ms": 1440
+        },
+        {
+          "id": "06",
+          "caption": "怎么还没下班",
+          "file": "docs/examples/whale-office/06.gif",
+          "sha256": "05542f599be6f2fc352264e88925492b6e21fa465c886297f594f758afba349a",
+          "frames": 12,
+          "duration_ms": 1440
+        }
+      ]
+    },
     {
       "id": "cat-daily",
       "title": "小猫卡通 · 日常交流",
@@ -410,14 +464,6 @@
       "title": "鲸鱼娘 · 骑马动作",
       "items": [
         {
-          "id": "01",
-          "caption": "骑马挥关刀",
-          "file": "docs/examples/whale-battle/01.gif",
-          "sha256": "3d8c6c5b25f212e8a2bc347d3902450cf2fe43758b78a3fe5e33b19e2ebd8a79",
-          "frames": 36,
-          "duration_ms": 1440
-        },
-        {
           "id": "02",
           "caption": "正面骑马冲刺",
           "file": "docs/examples/whale-battle/02.gif",
@@ -492,15 +538,27 @@
   ],
   "featured": [
     [
+      "whale-office",
+      "01"
+    ],
+    [
+      "whale-office",
+      "02"
+    ],
+    [
+      "whale-office",
+      "05"
+    ],
+    [
+      "whale-office",
+      "06"
+    ],
+    [
       "whale-battle",
       "02"
     ],
     [
       "trump-pixel",
-      "01"
-    ],
-    [
-      "whale-battle",
       "01"
     ],
     [
@@ -526,19 +584,7 @@
     [
       "huo-daily",
       "03"
-    ],
-    [
-      "office-cat",
-      "04"
-    ],
-    [
-      "cat-daily",
-      "06"
-    ],
-    [
-      "doodle-life",
-      "08"
     ]
   ],
-  "release_tag": "v0.3.1-preview"
+  "release_tag": "v0.3.2-preview"
 }
