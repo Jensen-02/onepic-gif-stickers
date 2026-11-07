@@ -122,32 +122,22 @@ OnePic GIF Stickers 是一个 Codex 技能。你上传图片、说出主题，Co
 
 也可从 [Releases](https://github.com/Jensen-02/onepic-gif-stickers/releases) 下载技能 ZIP，解压后将整个 `theme-gif-stickers` 文件夹放入 `$CODEX_HOME/skills/`；未设置 `CODEX_HOME` 时使用用户目录下的 `.codex/skills/`。
 
-安装后在新聊天里选择 `$theme-gif-stickers` 并上传主图。若没有显示，先刷新或重新打开 Codex。
-
-### 需要的环境
-
-| 项目 | 用途 |
-| --- | --- |
-| 可使用内置图片生成工具的 Codex | 读取参考图，生成角色和动作姿势；无需为本技能另配图片 API |
-| Python 3.10+、Pillow 13.x | 字幕、GIF 合成、文件检查；由 Codex 按环境检查和准备 |
-| 本机可用的中文字体 | 有字版字幕；项目不捆绑商业字体 |
-
-使用前需确认当前 Codex 会话能调用图片生成工具且额度可用。需要补帧时使用环境中已有的工具；项目不附带补帧模型，也不会自动安装大型模型或切换付费视频服务。
+安装后在新聊天里选择「一图成套 · GIF 表情包工坊」。若没有显示，先刷新或重新打开 Codex。
 
 ## 怎么用
 
-上传图片，再发一句话：
+选择技能后上传主图，再用一句话说明主题、画风和数量。也可以在消息中用 `$theme-gif-stickers` 调用；这是当前技能标识，和展厅里的中文展示名对应。
 
 ```text
-$theme-gif-stickers 根据这张照片，把我做成Q版，做8张日常聊天表情包。
+根据这张照片，把我做成Q版，做8张日常聊天GIF表情包。
 ```
 
 ```text
-$theme-gif-stickers 用我家猫这张图，做6张吃喝玩乐的表情包，不要字。
+用我家猫这张图，做6张吃喝玩乐的GIF表情包，不要字。
 ```
 
 ```text
-$theme-gif-stickers 用这张角色图，做一套不想上班的表情包，轻动作。
+用这张角色图，以 S10 手绘涂鸦风格做一套不想上班的GIF表情包，轻动作。
 ```
 
 需要调整时直接说：
@@ -170,34 +160,71 @@ $theme-gif-stickers 用这张角色图，做一套不想上班的表情包，轻
 
 ## 画风参考
 
-| Q版 | 手绘涂鸦 | 气球扭塑 | 发条铁皮 |
-| :---: | :---: | :---: | :---: |
-| <img src="skills/theme-gif-stickers/assets/styles/S02-chibi.png" width="160" alt="Q版参考"> | <img src="skills/theme-gif-stickers/assets/styles/S10-doodle.png" width="160" alt="手绘参考"> | <img src="skills/theme-gif-stickers/assets/styles/S27-balloon-sculpture.png" width="160" alt="气球参考"> | <img src="skills/theme-gif-stickers/assets/styles/S29-tin-clockwork.png" width="160" alt="铁皮参考"> |
+共 **37 种画风**，按 6 个系列收起展示。点击系列标题展开，点击样图查看原尺寸。选中后直接说编号或名称，例如“用 S10 手绘涂鸦风格”。
 
-▲ 样图只提供画风，角色仍以你上传的主图为准。可以直接说“用 S10 手绘涂鸦风格”。
+样图只提供画风，角色仍以你上传的主图为准。
 
-[浏览全部 37 种画风](docs/styles.md) · [角色与风格参考的分工](skills/theme-gif-stickers/references/style-library.md)
+<details>
+<summary><strong>二维卡通 · 6 种 · 点击展开</strong></summary>
 
-## 开发与验证
+<table>
+<tr><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S02-chibi.png"><img src="skills/theme-gif-stickers/assets/styles/S02-chibi.png" width="180" alt="S02 · Q版大头"></a><br><strong>S02 · Q版大头</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S07-anime-reaction.png"><img src="skills/theme-gif-stickers/assets/styles/S07-anime-reaction.png" width="180" alt="S07 · 日漫反应"></a><br><strong>S07 · 日漫反应</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S08-flat-cartoon.png"><img src="skills/theme-gif-stickers/assets/styles/S08-flat-cartoon.png" width="180" alt="S08 · 美式卡通"></a><br><strong>S08 · 美式卡通</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S09-ink-comic.png"><img src="skills/theme-gif-stickers/assets/styles/S09-ink-comic.png" width="180" alt="S09 · 黑白漫画"></a><br><strong>S09 · 黑白漫画</strong></td></tr>
+<tr><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S10-doodle.png"><img src="skills/theme-gif-stickers/assets/styles/S10-doodle.png" width="180" alt="S10 · 手绘涂鸦"></a><br><strong>S10 · 手绘涂鸦</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S22-rubber-hose.png"><img src="skills/theme-gif-stickers/assets/styles/S22-rubber-hose.png" width="180" alt="S22 · 橡皮管动画"></a><br><strong>S22 · 橡皮管动画</strong></td></tr>
+</table>
 
-```bash
-git clone https://github.com/Jensen-02/onepic-gif-stickers.git
-cd onepic-gif-stickers
-python -m pip install -r skills/theme-gif-stickers/requirements.txt
-python -m unittest discover -s skills/theme-gif-stickers/tests -v
-```
+</details>
 
-测试需要本机存在字体；无默认字体时设置 `TEST_FONT` 指向可用 TTF/TTC。自动测试检查编码与文件行为，不替代动画视觉验收。
+<details>
+<summary><strong>立体玩偶与材质 · 10 种 · 点击展开</strong></summary>
 
-已有独立姿势帧时可调用合成器：
+<table>
+<tr><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S03-soft-clay.png"><img src="skills/theme-gif-stickers/assets/styles/S03-soft-clay.png" width="180" alt="S03 · 软陶黏土"></a><br><strong>S03 · 软陶黏土</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S04-plush.png"><img src="skills/theme-gif-stickers/assets/styles/S04-plush.png" width="180" alt="S04 · 毛绒玩偶"></a><br><strong>S04 · 毛绒玩偶</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S05-vinyl.png"><img src="skills/theme-gif-stickers/assets/styles/S05-vinyl.png" width="180" alt="S05 · 搪胶潮玩"></a><br><strong>S05 · 搪胶潮玩</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S12-stylized-3d.png"><img src="skills/theme-gif-stickers/assets/styles/S12-stylized-3d.png" width="180" alt="S12 · 半写实3D"></a><br><strong>S12 · 半写实3D</strong></td></tr>
+<tr><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S21-carved-wood.png"><img src="skills/theme-gif-stickers/assets/styles/S21-carved-wood.png" width="180" alt="S21 · 木雕积木"></a><br><strong>S21 · 木雕积木</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S23-knitted.png"><img src="skills/theme-gif-stickers/assets/styles/S23-knitted.png" width="180" alt="S23 · 针织线偶"></a><br><strong>S23 · 针织线偶</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S27-balloon-sculpture.png"><img src="skills/theme-gif-stickers/assets/styles/S27-balloon-sculpture.png" width="180" alt="S27 · 气球扭塑"></a><br><strong>S27 · 气球扭塑</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S28-gummy-character.png"><img src="skills/theme-gif-stickers/assets/styles/S28-gummy-character.png" width="180" alt="S28 · 软糖小人"></a><br><strong>S28 · 软糖小人</strong></td></tr>
+<tr><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S29-tin-clockwork.png"><img src="skills/theme-gif-stickers/assets/styles/S29-tin-clockwork.png" width="180" alt="S29 · 发条铁皮"></a><br><strong>S29 · 发条铁皮</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S30-theatre-puppet.png"><img src="skills/theme-gif-stickers/assets/styles/S30-theatre-puppet.png" width="180" alt="S30 · 布偶剧角色"></a><br><strong>S30 · 布偶剧角色</strong></td></tr>
+</table>
 
-```bash
-python skills/theme-gif-stickers/scripts/compose_pack.py --manifest /path/to/render.json --output /path/to/new-output
-```
+</details>
 
-需要详细逐帧图片时加 `--review-frames`。一张普通照片不是这个脚本的直接动画输入，角色动作由 Codex 内置图片生成工具制作。
+<details>
+<summary><strong>纸艺与传统工艺 · 5 种 · 点击展开</strong></summary>
 
-[渲染清单格式](skills/theme-gif-stickers/references/job-format.md) · [验收方式](skills/theme-gif-stickers/references/quality.md) · [贡献指南](CONTRIBUTING.md) · [更新记录](CHANGELOG.md)
+<table>
+<tr><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S01-paper-meme.png"><img src="skills/theme-gif-stickers/assets/styles/S01-paper-meme.png" width="180" alt="S01 · 剪纸Meme"></a><br><strong>S01 · 剪纸Meme</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S11-layered-paper.png"><img src="skills/theme-gif-stickers/assets/styles/S11-layered-paper.png" width="180" alt="S11 · 立体纸雕"></a><br><strong>S11 · 立体纸雕</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S24-origami.png"><img src="skills/theme-gif-stickers/assets/styles/S24-origami.png" width="180" alt="S24 · 折纸几何"></a><br><strong>S24 · 折纸几何</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S25-shadow-puppet.png"><img src="skills/theme-gif-stickers/assets/styles/S25-shadow-puppet.png" width="180" alt="S25 · 镂刻皮影"></a><br><strong>S25 · 镂刻皮影</strong></td></tr>
+<tr><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S26-blue-porcelain.png"><img src="skills/theme-gif-stickers/assets/styles/S26-blue-porcelain.png" width="180" alt="S26 · 青花瓷偶"></a><br><strong>S26 · 青花瓷偶</strong></td></tr>
+</table>
+
+</details>
+
+<details>
+<summary><strong>手绘与版画 · 6 种 · 点击展开</strong></summary>
+
+<table>
+<tr><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S15-colored-pencil.png"><img src="skills/theme-gif-stickers/assets/styles/S15-colored-pencil.png" width="180" alt="S15 · 彩铅绘本"></a><br><strong>S15 · 彩铅绘本</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S16-woodcut.png"><img src="skills/theme-gif-stickers/assets/styles/S16-woodcut.png" width="180" alt="S16 · 套色木刻"></a><br><strong>S16 · 套色木刻</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S17-watercolor.png"><img src="skills/theme-gif-stickers/assets/styles/S17-watercolor.png" width="180" alt="S17 · 水彩绘本"></a><br><strong>S17 · 水彩绘本</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S18-gongbi.png"><img src="skills/theme-gif-stickers/assets/styles/S18-gongbi.png" width="180" alt="S18 · 新中式工笔"></a><br><strong>S18 · 新中式工笔</strong></td></tr>
+<tr><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S34-chalk-drawing.png"><img src="skills/theme-gif-stickers/assets/styles/S34-chalk-drawing.png" width="180" alt="S34 · 粉笔速写"></a><br><strong>S34 · 粉笔速写</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S36-duotone-riso.png"><img src="skills/theme-gif-stickers/assets/styles/S36-duotone-riso.png" width="180" alt="S36 · 双色孔版"></a><br><strong>S36 · 双色孔版</strong></td></tr>
+</table>
+
+</details>
+
+<details>
+<summary><strong>数字几何与未来 · 6 种 · 点击展开</strong></summary>
+
+<table>
+<tr><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S06-pixel.png"><img src="skills/theme-gif-stickers/assets/styles/S06-pixel.png" width="180" alt="S06 · 复古像素"></a><br><strong>S06 · 复古像素</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S13-low-poly.png"><img src="skills/theme-gif-stickers/assets/styles/S13-low-poly.png" width="180" alt="S13 · 低多边形"></a><br><strong>S13 · 低多边形</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S14-voxel.png"><img src="skills/theme-gif-stickers/assets/styles/S14-voxel.png" width="180" alt="S14 · 等距体素"></a><br><strong>S14 · 等距体素</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S31-neon-wireframe.png"><img src="skills/theme-gif-stickers/assets/styles/S31-neon-wireframe.png" width="180" alt="S31 · 霓虹线框"></a><br><strong>S31 · 霓虹线框</strong></td></tr>
+<tr><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S32-minimal-geometry.png"><img src="skills/theme-gif-stickers/assets/styles/S32-minimal-geometry.png" width="180" alt="S32 · 极简几何"></a><br><strong>S32 · 极简几何</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S37-cyberpunk.png"><img src="skills/theme-gif-stickers/assets/styles/S37-cyberpunk.png" width="180" alt="S37 · 赛博朋克"></a><br><strong>S37 · 赛博朋克</strong></td></tr>
+</table>
+
+</details>
+
+<details>
+<summary><strong>装饰工艺与实验 · 4 种 · 点击展开</strong></summary>
+
+<table>
+<tr><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S19-stained-glass.png"><img src="skills/theme-gif-stickers/assets/styles/S19-stained-glass.png" width="180" alt="S19 · 彩绘玻璃"></a><br><strong>S19 · 彩绘玻璃</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S20-cloisonne.png"><img src="skills/theme-gif-stickers/assets/styles/S20-cloisonne.png" width="180" alt="S20 · 掐丝珐琅"></a><br><strong>S20 · 掐丝珐琅</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S33-tile-mosaic.png"><img src="skills/theme-gif-stickers/assets/styles/S33-tile-mosaic.png" width="180" alt="S33 · 瓷砖马赛克"></a><br><strong>S33 · 瓷砖马赛克</strong></td><td align="center"><a href="skills/theme-gif-stickers/assets/styles/S35-pinscreen-relief.png"><img src="skills/theme-gif-stickers/assets/styles/S35-pinscreen-relief.png" width="180" alt="S35 · 针点浮雕"></a><br><strong>S35 · 针点浮雕</strong></td></tr>
+</table>
+
+</details>
+
+[查看画风与动作提示](docs/styles.md)
 
 ## 许可与作者
 
