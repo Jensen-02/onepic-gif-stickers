@@ -1,0 +1,443 @@
+{
+  "count": 46,
+  "packs": [
+    {
+      "id": "cat-daily",
+      "title": "小猫卡通 · 日常交流",
+      "items": [
+        {
+          "id": "01",
+          "caption": "嗨喵",
+          "file": "docs/examples/cat-hello.gif",
+          "sha256": "e3d6b37c570b620a35961005511a0040d143bb1b468fa539564a027cb447ea45",
+          "frames": 36,
+          "duration_ms": 1440
+        },
+        {
+          "id": "02",
+          "caption": "开饭啦",
+          "file": "docs/examples/cat-dinner.gif",
+          "sha256": "b2251b1c00a4e2494a7eb95da222f9dbae5c3d9cee7864b487cc2b7d2acba9a8",
+          "frames": 36,
+          "duration_ms": 1440
+        },
+        {
+          "id": "03",
+          "caption": "贴贴",
+          "file": "docs/examples/cat-daily/03.gif",
+          "sha256": "dc0bb6d8d942e9e14211db3cfc8ea616b6b91c8c21c22e9b2e49892411f36343",
+          "frames": 36,
+          "duration_ms": 1440
+        },
+        {
+          "id": "04",
+          "caption": "收到啦",
+          "file": "docs/examples/cat-daily/04.gif",
+          "sha256": "d1f3e481d4af42d1696773f973932efc1dac055bb9c400104c96fe5bc2b38df9",
+          "frames": 36,
+          "duration_ms": 1440
+        },
+        {
+          "id": "05",
+          "caption": "不想动",
+          "file": "docs/examples/cat-daily/05.gif",
+          "sha256": "7887b0fee759d519f05360808a45728b61bd99705df49df9fb5278567ac0dd74",
+          "frames": 36,
+          "duration_ms": 1440
+        },
+        {
+          "id": "06",
+          "caption": "晚安喵",
+          "file": "docs/examples/cat-goodnight.gif",
+          "sha256": "df9d5ee6621bd93a980f6770099b4150cc05d38243a6f960af561557ec6b63b5",
+          "frames": 36,
+          "duration_ms": 1440
+        }
+      ]
+    },
+    {
+      "id": "tin-daily",
+      "title": "发条铁皮 · 日常交流",
+      "items": [
+        {
+          "id": "01",
+          "caption": "收到啦",
+          "file": "docs/examples/tin-daily/01.gif",
+          "sha256": "bc6bdbf85011f1e9c3bb4d7c84d4016e3bc5deeccdebc90ccdbb406199426bfb",
+          "frames": 6,
+          "duration_ms": 1160
+        },
+        {
+          "id": "02",
+          "caption": "好耶",
+          "file": "docs/examples/tin-daily/02.gif",
+          "sha256": "315d6e5a4c7669fb9711e03cbf3c8d02eeb1351543c57f5d477da7964185794e",
+          "frames": 6,
+          "duration_ms": 1160
+        },
+        {
+          "id": "03",
+          "caption": "谢谢你",
+          "file": "docs/examples/tin-daily/03.gif",
+          "sha256": "275b3ddb3f4b09747c349efd6db4bcaebb76b1b135ea37db297c2d270ea00eb9",
+          "frames": 6,
+          "duration_ms": 1160
+        },
+        {
+          "id": "04",
+          "caption": "抱抱你",
+          "file": "docs/examples/tin-daily/04.gif",
+          "sha256": "8046d0ebfc930d2f4d808adba848ab77899f605819ef74f3471907adc6ea9296",
+          "frames": 6,
+          "duration_ms": 1160
+        },
+        {
+          "id": "05",
+          "caption": "在呢",
+          "file": "docs/examples/tin-daily/05.gif",
+          "sha256": "f0e3355c2254c64e2b68abea97f107091abb866397d29968e3e5c87e2770eb15",
+          "frames": 6,
+          "duration_ms": 1160
+        },
+        {
+          "id": "06",
+          "caption": "让我想想",
+          "file": "docs/examples/tin-daily/06.gif",
+          "sha256": "0f3c056cb555b7766f1a6f12e9e37022e87b335a4d1e410f06d4092098dac8c4",
+          "frames": 6,
+          "duration_ms": 1500
+        },
+        {
+          "id": "07",
+          "caption": "辛苦啦",
+          "file": "docs/examples/tin-daily/07.gif",
+          "sha256": "1f5c4bd9f79736a1f0ce9ea085ee67a7bdfae0e811ec7c935a34e5aa5d7de525",
+          "frames": 6,
+          "duration_ms": 1160
+        },
+        {
+          "id": "08",
+          "caption": "加油呀",
+          "file": "docs/examples/tin-daily/08.gif",
+          "sha256": "744a1dbd5a87f77c478f6c0a0a072e04a6fcba60bbcd9b5bd00dd094f6579968",
+          "frames": 6,
+          "duration_ms": 1160
+        },
+        {
+          "id": "09",
+          "caption": "没问题",
+          "file": "docs/examples/tin-daily/09.gif",
+          "sha256": "760d1644849061d03ed7e2a4468a07dd546707860b0814c415fdc79bb2ca2004",
+          "frames": 6,
+          "duration_ms": 1160
+        },
+        {
+          "id": "10",
+          "caption": "别急嘛",
+          "file": "docs/examples/tin-daily/10.gif",
+          "sha256": "920327acbb7a1f053cad0e5b3cf5383047ab831bae529656fab4c25bde48a46f",
+          "frames": 6,
+          "duration_ms": 1160
+        },
+        {
+          "id": "11",
+          "caption": "晚安啦",
+          "file": "docs/examples/tin-daily/11.gif",
+          "sha256": "6de4a8d095eccd2a6a818bc70ab53509e5909861fb90034653dabb8efe7c5d44",
+          "frames": 6,
+          "duration_ms": 1500
+        },
+        {
+          "id": "12",
+          "caption": "回头聊",
+          "file": "docs/examples/tin-daily/12.gif",
+          "sha256": "f316d4e8109f781c10326187d3bf7fbb4577007744fed34135580def8307ba2e",
+          "frames": 6,
+          "duration_ms": 1160
+        }
+      ]
+    },
+    {
+      "id": "balloon-hello",
+      "title": "气球扭塑 · 打招呼",
+      "items": [
+        {
+          "id": "01",
+          "caption": "哈喽",
+          "file": "docs/examples/balloon-hello/01.gif",
+          "sha256": "e183f3c484bb8d811fb7ac15d86b8b7adac7da5545bfc1510d6bf0506eab0a9d",
+          "frames": 36,
+          "duration_ms": 1440
+        },
+        {
+          "id": "02",
+          "caption": "早上好",
+          "file": "docs/examples/balloon-hello/02.gif",
+          "sha256": "013802573e6a4ffd219d9b30e085f4730167ff1555f0eefb5393fe348ed05eb0",
+          "frames": 36,
+          "duration_ms": 1440
+        },
+        {
+          "id": "03",
+          "caption": "我来啦",
+          "file": "docs/examples/balloon-hello/03.gif",
+          "sha256": "39d69d62fe8ddccc7d8aeebe22461656ec506f1040b4d0d5bb1349982bbb02f2",
+          "frames": 36,
+          "duration_ms": 1440
+        },
+        {
+          "id": "04",
+          "caption": "好久不见",
+          "file": "docs/examples/balloon-hello/04.gif",
+          "sha256": "6b5ba38c03e703b760c4142e2488abc3cf0aa529f2544e28642c76190ff3eb27",
+          "frames": 36,
+          "duration_ms": 1440
+        }
+      ]
+    },
+    {
+      "id": "doodle-life",
+      "title": "手绘涂鸦 · 吃喝玩乐",
+      "items": [
+        {
+          "id": "01",
+          "caption": "开饭啦",
+          "file": "docs/examples/doodle-life/01.gif",
+          "sha256": "0f296d8dc74509afa42eb3c75b050b77564afd02a058fc1c5cc495d6fcbd0449",
+          "frames": 36,
+          "duration_ms": 1440
+        },
+        {
+          "id": "02",
+          "caption": "再来一口",
+          "file": "docs/examples/doodle-life/02.gif",
+          "sha256": "9b71e7f30251ca698a2629fe74b34e97009913e1d81bacc11c2127d9f2e2474f",
+          "frames": 36,
+          "duration_ms": 1440
+        },
+        {
+          "id": "03",
+          "caption": "干杯呀",
+          "file": "docs/examples/doodle-life/03.gif",
+          "sha256": "a0db8d5c375d5d5b6fecc24678f9b36bc103db74d66848dc1c7935c8a71ef7e7",
+          "frames": 36,
+          "duration_ms": 1440
+        },
+        {
+          "id": "04",
+          "caption": "奶茶续命",
+          "file": "docs/examples/doodle-life/04.gif",
+          "sha256": "9e897273763ccbdf0e33b23c40247e899aed92c07d85f5f19b5391293e6fa3ce",
+          "frames": 36,
+          "duration_ms": 1440
+        },
+        {
+          "id": "05",
+          "caption": "出去浪",
+          "file": "docs/examples/doodle-life/05.gif",
+          "sha256": "3139966cf2f0c66921d132bf97bb8a91c6606a71f32953b9fedee91450c47c85",
+          "frames": 36,
+          "duration_ms": 1440
+        },
+        {
+          "id": "06",
+          "caption": "开黑吗",
+          "file": "docs/examples/doodle-life/06.gif",
+          "sha256": "a932c5d5b22ff7a17262e95050ca6b0d138d5bf9d0481585c973dbf3caa0b13d",
+          "frames": 36,
+          "duration_ms": 1440
+        },
+        {
+          "id": "07",
+          "caption": "嗨起来",
+          "file": "docs/examples/doodle-life/07.gif",
+          "sha256": "08345bd32a43b49cd44ec4b88c72bc5f4a31140e112c0cd6aaee20d67d016ce7",
+          "frames": 36,
+          "duration_ms": 1440
+        },
+        {
+          "id": "08",
+          "caption": "快乐躺平",
+          "file": "docs/examples/doodle-life/08.gif",
+          "sha256": "67cc1c616af6cec77e62ea6936ee78a14c05bb26b0702788c96ca2282bcc8705",
+          "frames": 36,
+          "duration_ms": 1440
+        }
+      ]
+    },
+    {
+      "id": "huo-daily",
+      "title": "霍言庭Q版 · 霸总日常",
+      "items": [
+        {
+          "id": "01",
+          "caption": "刷我的",
+          "file": "docs/examples/huo-daily/01.gif",
+          "sha256": "ae6139bc4deb44985dde45184a569f86d4cee902ac170ffd4a0c44ce3f6ad018",
+          "frames": 36,
+          "duration_ms": 1440
+        },
+        {
+          "id": "02",
+          "caption": "听你的",
+          "file": "docs/examples/huo-daily/02.gif",
+          "sha256": "5bafb030e844c1bcf7520d81a7bd29794a9ea174d50d4b0b9054cde8fac3ba25",
+          "frames": 36,
+          "duration_ms": 1440
+        },
+        {
+          "id": "03",
+          "caption": "过来抱抱",
+          "file": "docs/examples/huo-daily/03.gif",
+          "sha256": "17bbfb12efdb386bddd1b147289da7d8dc8f0cb4525682784f9287399664d926",
+          "frames": 36,
+          "duration_ms": 1440
+        },
+        {
+          "id": "04",
+          "caption": "想我了",
+          "file": "docs/examples/huo-daily/04.gif",
+          "sha256": "550460edd4c723ed8c879d7635a78d209c40e0ff5357aff2ac46a0084712b47f",
+          "frames": 36,
+          "duration_ms": 1440
+        },
+        {
+          "id": "05",
+          "caption": "谁惹你了",
+          "file": "docs/examples/huo-daily/05.gif",
+          "sha256": "08c6fe5c6f59d439d12c0ab325900f119a759af22a7c87b40416c719ce023d44",
+          "frames": 36,
+          "duration_ms": 1440
+        },
+        {
+          "id": "06",
+          "caption": "我吃醋了",
+          "file": "docs/examples/huo-daily/06.gif",
+          "sha256": "b765e284ea99344958b2864fa5b1e87a822b02dd2c38055b86cd47b162231b79",
+          "frames": 36,
+          "duration_ms": 1440
+        },
+        {
+          "id": "07",
+          "caption": "不许熬夜",
+          "file": "docs/examples/huo-daily/07.gif",
+          "sha256": "88e5c68599ebf024c14609c2caadad51a1e47284b14c208ad5d61b0e9b997a06",
+          "frames": 36,
+          "duration_ms": 1440
+        },
+        {
+          "id": "08",
+          "caption": "拿你没办法",
+          "file": "docs/examples/huo-daily/08.gif",
+          "sha256": "1d19d52b5f95e1485c2ca3a49d87578d06e35877a4861d414d7ed690c4879b28",
+          "frames": 36,
+          "duration_ms": 1440
+        }
+      ]
+    },
+    {
+      "id": "office-cat",
+      "title": "打工猫 · 上班日常",
+      "items": [
+        {
+          "id": "01",
+          "caption": "再改要炸毛了",
+          "file": "docs/examples/office-cat/01.gif",
+          "sha256": "de2da9cf6573abc256e83987cca6387499bfbf610837249925957bd17cdda6a9",
+          "frames": 6,
+          "duration_ms": 1500
+        },
+        {
+          "id": "02",
+          "caption": "准点撤退",
+          "file": "docs/examples/office-cat/02.gif",
+          "sha256": "9c152f4b8560eee59680d6d01c357c48356d664ebc385ff4b61cbf466f4625f9",
+          "frames": 6,
+          "duration_ms": 1500
+        },
+        {
+          "id": "03",
+          "caption": "发薪日限定笑容",
+          "file": "docs/examples/office-cat/03.gif",
+          "sha256": "ba145cc58791a2b1ad9c5fb055724e894c1e3f9b2691ce8704258085e7447e17",
+          "frames": 6,
+          "duration_ms": 1500
+        },
+        {
+          "id": "04",
+          "caption": "周一别找我",
+          "file": "docs/examples/office-cat/04.gif",
+          "sha256": "05f3660a177e0901faffb99c9d041bf571d534b3756ff462d1268be9a0fd45db",
+          "frames": 6,
+          "duration_ms": 1500
+        },
+        {
+          "id": "05",
+          "caption": "收到但没动",
+          "file": "docs/examples/office-cat/05.gif",
+          "sha256": "7e28d70332ce4d11aafd5dd26c8361d57ff887dc645aa0df224da284b5042c19",
+          "frames": 6,
+          "duration_ms": 1500
+        },
+        {
+          "id": "06",
+          "caption": "脑子加载中",
+          "file": "docs/examples/office-cat/06.gif",
+          "sha256": "f6e4bea4efc226e07ec2a03305b88e6ef9034da90ec264a295bd99e80c2432f9",
+          "frames": 6,
+          "duration_ms": 1500
+        },
+        {
+          "id": "07",
+          "caption": "这会非开不可吗",
+          "file": "docs/examples/office-cat/07.gif",
+          "sha256": "9a995616da444253fd8f647ff6d88d9cdf02b243fc31b416b2040fbcec1d8d59",
+          "frames": 6,
+          "duration_ms": 1500
+        },
+        {
+          "id": "08",
+          "caption": "这锅我不背",
+          "file": "docs/examples/office-cat/08.gif",
+          "sha256": "d1f484d53a787d488b10c18a717b50c1805474d2ebecfaba0dc16e362f90de7a",
+          "frames": 6,
+          "duration_ms": 1500
+        }
+      ]
+    }
+  ],
+  "featured": [
+    [
+      "cat-daily",
+      "01"
+    ],
+    [
+      "tin-daily",
+      "02"
+    ],
+    [
+      "balloon-hello",
+      "01"
+    ],
+    [
+      "doodle-life",
+      "04"
+    ],
+    [
+      "huo-daily",
+      "03"
+    ],
+    [
+      "office-cat",
+      "04"
+    ],
+    [
+      "cat-daily",
+      "06"
+    ],
+    [
+      "doodle-life",
+      "08"
+    ]
+  ]
+}
