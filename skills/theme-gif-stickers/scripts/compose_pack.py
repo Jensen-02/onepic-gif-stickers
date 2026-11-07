@@ -156,6 +156,7 @@ def to_palette(frames, transparent, threshold):
 def audit_gif(path, expected_size, expected_duration):
     frames, delays, hashes, alpha = [], [], set(), []
     with Image.open(path) as gif:
+        file_format = gif.format
         loop = gif.info.get("loop")
         size = gif.size
         for index in range(gif.n_frames):
@@ -166,6 +167,8 @@ def audit_gif(path, expected_size, expected_duration):
             hashes.add(hashlib.sha256(frame.tobytes()).hexdigest())
             alpha.append(frame.getchannel("A").getextrema()[0] == 0)
     errors = []
+    if file_format != "GIF":
+        errors.append("file is not GIF format")
     if size != (expected_size, expected_size):
         errors.append("unexpected canvas")
     if len(hashes) < 2:
@@ -174,7 +177,7 @@ def audit_gif(path, expected_size, expected_duration):
         errors.append("not an infinite loop")
     if not delays or any(d <= 0 for d in delays) or sum(delays) != expected_duration:
         errors.append("decoded timing differs from requested timing")
-    return {"file": path.name, "sha256": hashlib.sha256(path.read_bytes()).hexdigest(),
+    return {"file": path.name, "format": file_format, "sha256": hashlib.sha256(path.read_bytes()).hexdigest(),
             "size": list(size), "frame_count": len(frames), "distinct_frames": len(hashes),
             "durations_ms": delays, "total_ms": sum(delays), "loop": loop,
             "bytes": path.stat().st_size, "transparent_pixels_per_frame": alpha,

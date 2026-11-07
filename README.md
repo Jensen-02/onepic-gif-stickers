@@ -2,11 +2,11 @@
 
 **给 Codex 一张主图、一个主题，做出一套能单独发送的 GIF 表情包。**
 
-OnePic GIF Stickers 是一个 Codex 技能。你上传图片、说出主题，Codex 设计文案、表情、动作和道具，调用内置图片工具生成连续姿势，再合成为 GIF。
+OnePic GIF Stickers 是一个 Codex 技能。你上传图片、说出主题，Codex 设计文案、表情、动作和道具。内置工具支持时直接生成 GIF；只返回静态图时，继续生成连续姿势并合成为 GIF。
 
 > 用这张图做一套不想上班的表情包。
 
-默认交付一套独立动图。项目名称为 `onepic-gif-stickers`，在 Codex 中用 **`$theme-gif-stickers`** 调用。
+最终交付一套独立 `.gif` 动图和下载包，静态样张只是中间步骤。项目名称为 `onepic-gif-stickers`，在 Codex 中用 **`$theme-gif-stickers`** 调用。
 
 ## 表情包展厅
 

@@ -84,6 +84,16 @@ class ComposeTests(unittest.TestCase):
             self.run_render()
         self.assertFalse((self.root / "out/candidates.zip").exists())
 
+    def test_animated_png_renamed_gif_is_rejected(self):
+        fake = self.root / "renamed.gif"
+        with Image.open(self.root / "0.png") as first, Image.open(self.root / "1.png") as second:
+            first.save(fake, format="PNG", save_all=True, append_images=[second], duration=[100, 100], loop=0)
+        report, _ = compose.audit_gif(fake, 64, 200)
+        self.assertGreater(report["distinct_frames"], 1)
+        self.assertEqual(report["format"], "PNG")
+        self.assertEqual(report["technical_status"], "fail")
+        self.assertIn("file is not GIF format", report["errors"])
+
     def test_existing_revision_not_overwritten(self):
         self.run_render()
         original = (self.root / "out/gifs/01.gif").read_bytes()

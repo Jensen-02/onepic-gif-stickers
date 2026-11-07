@@ -14,4 +14,6 @@ Codex 专用技能：上传一张主图、说一个主题，使用 Codex 内置�
 
 内置37张风格参考，见[风格说明](references/style-library.md)与`assets/styles/index.html`。用户主图决定身份，样图只提供画风。
 
-版本：0.3.0预览版。完整安装、演示、问题反馈和MIT许可见[项目主页](https://github.com/Jensen-02/onepic-gif-stickers)。
+最终交付每条表情对应的独立 `.gif` 文件和整套 ZIP。生成工具返回静态图后继续制作，不停在角色样张或静态合集；已能直接输出真实 GIF 时优先使用，跳过姿势合成。
+
+版本：0.3.1预览版。完整安装、演示、问题反馈和MIT许可见[项目主页](https://github.com/Jensen-02/onepic-gif-stickers)。
