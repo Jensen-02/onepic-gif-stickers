@@ -11,8 +11,8 @@
       "family": "纸艺",
       "image": "assets/styles/S01-paper-meme.png",
       "role": "style_reference_only",
-      "motion_notes": "保持纸片轮廓与撕边位置，适合短促点赞；避免每帧随机重排碎纸。",
-      "sha256": "9b1672b9aa4b7708cd4f6285cf48046c64118a2b4a2dceb8dc9b7867e4f57322"
+      "sha256": "9b1672b9aa4b7708cd4f6285cf48046c64118a2b4a2dceb8dc9b7867e4f57322",
+      "style_notes": "剪贴纸片轮廓、撕边肌理与拼贴色块。"
     },
     {
       "id": "S02",
@@ -21,8 +21,8 @@
       "family": "二维线条",
       "image": "assets/styles/S02-chibi.png",
       "role": "style_reference_only",
-      "motion_notes": "优先眨眼、挥手、点头；锁定头身比例与眼镜框。",
-      "sha256": "baf4caa507a44b02def9b390adb69a5f000af359bf7284f826eaf2e440f8cda4"
+      "sha256": "baf4caa507a44b02def9b390adb69a5f000af359bf7284f826eaf2e440f8cda4",
+      "style_notes": "大头小身体、圆润轮廓和简洁鲜明的五官。"
     },
     {
       "id": "S03",
@@ -31,8 +31,8 @@
       "family": "立体材质",
       "image": "assets/styles/S03-soft-clay.png",
       "role": "style_reference_only",
-      "motion_notes": "优先托腮、抬头；手捏纹理和光照需固定。",
-      "sha256": "4183eb013d211bd6d881aebb589832e469cb7dadc1c1cb45bc71a568820375d7"
+      "sha256": "4183eb013d211bd6d881aebb589832e469cb7dadc1c1cb45bc71a568820375d7",
+      "style_notes": "柔软圆润的黏土造型、手捏纹理与哑光质感。"
     },
     {
       "id": "S04",
@@ -41,8 +41,8 @@
       "family": "立体材质",
       "image": "assets/styles/S04-plush.png",
       "role": "style_reference_only",
-      "motion_notes": "优先摊手、耷拉肩；检查绒毛边缘与刺绣五官漂移。",
-      "sha256": "29af0c0b317139a8fd2b165dbc0f762d88c34b88c5c4a836818c231b6d18e7ff"
+      "sha256": "29af0c0b317139a8fd2b165dbc0f762d88c34b88c5c4a836818c231b6d18e7ff",
+      "style_notes": "蓬松绒毛、布料接缝与刺绣五官。"
     },
     {
       "id": "S05",
@@ -51,8 +51,8 @@
       "family": "立体材质",
       "image": "assets/styles/S05-vinyl.png",
       "role": "style_reference_only",
-      "motion_notes": "优先抱臂、侧目；固定材质高光和头发雕刻结构。",
-      "sha256": "76608d9e54d94b97022978e0990d8a6e74648b2ec2cbadd62704e5b982e9c99a"
+      "sha256": "76608d9e54d94b97022978e0990d8a6e74648b2ec2cbadd62704e5b982e9c99a",
+      "style_notes": "光滑搪胶表面、雕塑感造型与潮玩配色。"
     },
     {
       "id": "S06",
@@ -61,8 +61,8 @@
       "family": "数字几何",
       "image": "assets/styles/S06-pixel.png",
       "role": "style_reference_only",
-      "motion_notes": "固定像素网格和调色板；步态要有明确抬脚、接触与回位。",
-      "sha256": "18746b45e7989518f6319bf662060eed2b197acb4e5c492795556e203342a78e"
+      "sha256": "18746b45e7989518f6319bf662060eed2b197acb4e5c492795556e203342a78e",
+      "style_notes": "清晰像素网格、有限色板与复古游戏质感。"
     },
     {
       "id": "S07",
@@ -71,8 +71,8 @@
       "family": "二维线条",
       "image": "assets/styles/S07-anime-reaction.png",
       "role": "style_reference_only",
-      "motion_notes": "适合惊讶、捂脸；夸张表情不能改变眼镜和头颅结构。",
-      "sha256": "5df13c04fd60aa720e72942b9a1ec0c71863627ed9c645494f54a618ce3ba743"
+      "sha256": "5df13c04fd60aa720e72942b9a1ec0c71863627ed9c645494f54a618ce3ba743",
+      "style_notes": "日漫线稿、赛璐璐色块与鲜明的五官表现。"
     },
     {
       "id": "S08",
@@ -81,8 +81,8 @@
       "family": "二维线条",
       "image": "assets/styles/S08-flat-cartoon.png",
       "role": "style_reference_only",
-      "motion_notes": "适合耸肩、翻白眼；表情节奏与手势匹配。",
-      "sha256": "6b730dfe4ee4da719868a57576d45921719286ff8e18bca8f446b0cac851431a"
+      "sha256": "6b730dfe4ee4da719868a57576d45921719286ff8e18bca8f446b0cac851431a",
+      "style_notes": "粗线轮廓、平涂色块与夸张的卡通比例。"
     },
     {
       "id": "S09",
@@ -91,8 +91,8 @@
       "family": "二维线条",
       "image": "assets/styles/S09-ink-comic.png",
       "role": "style_reference_only",
-      "motion_notes": "保留线宽、黑块和网点；闭眼变化须明确而非整个脸缩放。",
-      "sha256": "ec5182108c7cc444d4f8bd298aefb34cdc5e4d03c827092d946b0be279da48bc"
+      "sha256": "ec5182108c7cc444d4f8bd298aefb34cdc5e4d03c827092d946b0be279da48bc",
+      "style_notes": "黑白对比、墨线、黑块与漫画网点。"
     },
     {
       "id": "S10",
@@ -101,8 +101,8 @@
       "family": "二维线条",
       "image": "assets/styles/S10-doodle.png",
       "role": "style_reference_only",
-      "motion_notes": "可保留有意的线条活力，但身份轮廓与身体位置要稳定。",
-      "sha256": "d87d26d15f5c3c8090796d0171bbb100a402eab2cc4e2218ef53a2ed86276aed"
+      "sha256": "d87d26d15f5c3c8090796d0171bbb100a402eab2cc4e2218ef53a2ed86276aed",
+      "style_notes": "随性的手绘线条、涂鸦笔触与简洁配色。"
     },
     {
       "id": "S11",
@@ -111,8 +111,8 @@
       "family": "纸艺",
       "image": "assets/styles/S11-layered-paper.png",
       "role": "style_reference_only",
-      "motion_notes": "适合局部挥手；纸片边界和层间阴影保持一致。",
-      "sha256": "bb21939711d447a04037f380541af326acfa84b9c8bd0af0de97c90cfd5a41be"
+      "sha256": "bb21939711d447a04037f380541af326acfa84b9c8bd0af0de97c90cfd5a41be",
+      "style_notes": "多层纸片结构、清楚的纸边与层叠阴影。"
     },
     {
       "id": "S12",
@@ -121,8 +121,8 @@
       "family": "立体材质",
       "image": "assets/styles/S12-stylized-3d.png",
       "role": "style_reference_only",
-      "motion_notes": "优先小幅扶眼镜；手指接触、镜架与脸部辨识度必须逐帧复检。",
-      "sha256": "c138b74902c68d8e26c6c2ebb59e1e643d1bf753b340d7dff101ce7976ad281b"
+      "sha256": "c138b74902c68d8e26c6c2ebb59e1e643d1bf753b340d7dff101ce7976ad281b",
+      "style_notes": "保留人物辨识特征的立体造型与柔和材质渲染。"
     },
     {
       "id": "S13",
@@ -131,8 +131,8 @@
       "family": "数字几何",
       "image": "assets/styles/S13-low-poly.png",
       "role": "style_reference_only",
-      "motion_notes": "切面结构与光源固定，优先点头、抬手；避免逐帧切面重排。",
-      "sha256": "f29c89c08073ab931587b7c8c4b27d93896bf1a8eb7c9f755faa2599636ae79d"
+      "sha256": "f29c89c08073ab931587b7c8c4b27d93896bf1a8eb7c9f755faa2599636ae79d",
+      "style_notes": "几何切面、硬朗轮廓与块面明暗。"
     },
     {
       "id": "S14",
@@ -141,8 +141,8 @@
       "family": "数字几何",
       "image": "assets/styles/S14-voxel.png",
       "role": "style_reference_only",
-      "motion_notes": "固定体素网格与相机角度，动作按清楚关节转动设计。",
-      "sha256": "b7d270f698415914feb9619c70bad0e8709f78b96bff214e47d9d59880329762"
+      "sha256": "b7d270f698415914feb9619c70bad0e8709f78b96bff214e47d9d59880329762",
+      "style_notes": "立方体素、等距视角与积木式结构。"
     },
     {
       "id": "S15",
@@ -151,8 +151,8 @@
       "family": "绘画与印刷",
       "image": "assets/styles/S15-colored-pencil.png",
       "role": "style_reference_only",
-      "motion_notes": "控制排线密度，纹理尽量稳定；优先轻微眨眼和小手势。",
-      "sha256": "c015ca80a06c1f3a28f2173a10c799d0f58a309f36f656f9885a4e482bef2b7a"
+      "sha256": "c015ca80a06c1f3a28f2173a10c799d0f58a309f36f656f9885a4e482bef2b7a",
+      "style_notes": "彩铅排线、纸张颗粒与温暖的绘本配色。"
     },
     {
       "id": "S16",
@@ -161,8 +161,8 @@
       "family": "绘画与印刷",
       "image": "assets/styles/S16-woodcut.png",
       "role": "style_reference_only",
-      "motion_notes": "保留刀刻线与套色关系，局部姿势变化要少而清楚。",
-      "sha256": "526e2610678e778e966a6a55c04b0a749c4a9e4fe5acb54ba771021373abf217"
+      "sha256": "526e2610678e778e966a6a55c04b0a749c4a9e4fe5acb54ba771021373abf217",
+      "style_notes": "刀刻线条、粗粝木纹与有限套色色块。"
     },
     {
       "id": "S17",
@@ -171,8 +171,8 @@
       "family": "绘画与印刷",
       "image": "assets/styles/S17-watercolor.png",
       "role": "style_reference_only",
-      "motion_notes": "面部线条固定；晕染纹理变化容易闪烁，需要逐帧检查。",
-      "sha256": "7900acbc14b23eaf559a71ea7511702bff9ded2dfd358e5f3a6fd098fab38830"
+      "sha256": "7900acbc14b23eaf559a71ea7511702bff9ded2dfd358e5f3a6fd098fab38830",
+      "style_notes": "透明水色、自然晕染与柔和纸张肌理。"
     },
     {
       "id": "S18",
@@ -181,8 +181,8 @@
       "family": "绘画与印刷",
       "image": "assets/styles/S18-gongbi.png",
       "role": "style_reference_only",
-      "motion_notes": "优先含蓄表情与小幅扶眼镜，细线不能忽粗忽细。",
-      "sha256": "e8225831b634722101c49f0f07d3a1194400d8f97bcb7194232d2532695e82b2"
+      "sha256": "e8225831b634722101c49f0f07d3a1194400d8f97bcb7194232d2532695e82b2",
+      "style_notes": "细腻勾线、层次设色与新中式装饰气质。"
     },
     {
       "id": "S19",
@@ -191,8 +191,8 @@
       "family": "工艺材质",
       "image": "assets/styles/S19-stained-glass.png",
       "role": "style_reference_only",
-      "motion_notes": "分片与铅条必须稳定，优先小幅动作；透明边缘与折射需要单独检查。",
-      "sha256": "6532f978b703fbebc4a86c79114661807bf967f9d64828ffe4ee430af5e4497d"
+      "sha256": "6532f978b703fbebc4a86c79114661807bf967f9d64828ffe4ee430af5e4497d",
+      "style_notes": "彩色玻璃分片、铅条轮廓与透光质感。"
     },
     {
       "id": "S20",
@@ -201,8 +201,8 @@
       "family": "工艺材质",
       "image": "assets/styles/S20-cloisonne.png",
       "role": "style_reference_only",
-      "motion_notes": "固定金属丝走向和高光，避免每帧随机闪点。",
-      "sha256": "a60fd90e7e2c7b0a99678bea3b26a0d51c38f5d166547963c6b7ba2dfcc9b85b"
+      "sha256": "a60fd90e7e2c7b0a99678bea3b26a0d51c38f5d166547963c6b7ba2dfcc9b85b",
+      "style_notes": "金属掐丝边界、饱满釉色与珐琅光泽。"
     },
     {
       "id": "S21",
@@ -211,8 +211,8 @@
       "family": "立体材质",
       "image": "assets/styles/S21-carved-wood.png",
       "role": "style_reference_only",
-      "motion_notes": "适合关节式点头、挥手，保持木纹贴附同一部位。",
-      "sha256": "1bd3648f3b20beeec2340818ea4ce8004114c2fd898a83234afc908066973c10"
+      "sha256": "1bd3648f3b20beeec2340818ea4ce8004114c2fd898a83234afc908066973c10",
+      "style_notes": "木纹、雕刻切面与积木拼接造型。"
     },
     {
       "id": "S22",
@@ -221,8 +221,8 @@
       "family": "二维线条",
       "image": "assets/styles/S22-rubber-hose.png",
       "role": "style_reference_only",
-      "motion_notes": "适合弧线手势与有节奏的步态，要补真实弯曲过程，不能整图摇摆替代。",
-      "sha256": "44ffe48b34f19201395b18490ddaf8685d532cbd80153795414b9616c1350286"
+      "sha256": "44ffe48b34f19201395b18490ddaf8685d532cbd80153795414b9616c1350286",
+      "style_notes": "复古卡通轮廓、橡皮管式四肢与简洁黑白或限色设计。"
     },
     {
       "id": "S23",
@@ -231,8 +231,8 @@
       "family": "立体材质",
       "image": "assets/styles/S23-knitted.png",
       "role": "style_reference_only",
-      "motion_notes": "针目方向和大小需稳定，优先短小手势，避免帧间纹理爬动。",
-      "sha256": "cbaec349abe9f4f11ff96eb1a79b4158fe4d9256fb90a93bc2413391e1020352"
+      "sha256": "cbaec349abe9f4f11ff96eb1a79b4158fe4d9256fb90a93bc2413391e1020352",
+      "style_notes": "可见针目、毛线纤维与柔软针织结构。"
     },
     {
       "id": "S24",
@@ -241,8 +241,8 @@
       "family": "纸艺",
       "image": "assets/styles/S24-origami.png",
       "role": "style_reference_only",
-      "motion_notes": "固定折痕与面片，适合节制的点头挥手；关节变化要符合纸片结构。",
-      "sha256": "7415361e395592a67fb3c2f01ce5fe70d59eecb5d1019cf77ae904d600fd6bff"
+      "sha256": "7415361e395592a67fb3c2f01ce5fe70d59eecb5d1019cf77ae904d600fd6bff",
+      "style_notes": "折痕、纸面几何结构与干净的色块。"
     },
     {
       "id": "S25",
@@ -251,8 +251,8 @@
       "family": "传统工艺",
       "image": "assets/styles/S25-shadow-puppet.png",
       "role": "style_reference_only",
-      "motion_notes": "适合关节式抬手、点头；锁定镂刻纹样，不用整图摆动代替关节动作。",
-      "sha256": "f8511a8f2e443bc96e35edf9ddcedee131da48762414de0337b81f95feb1b9c0"
+      "sha256": "f8511a8f2e443bc96e35edf9ddcedee131da48762414de0337b81f95feb1b9c0",
+      "style_notes": "透光皮革、镂刻纹样与平面剪影造型。"
     },
     {
       "id": "S26",
@@ -261,8 +261,8 @@
       "family": "传统工艺",
       "image": "assets/styles/S26-blue-porcelain.png",
       "role": "style_reference_only",
-      "motion_notes": "适合小幅点头、举手；固定釉色、花纹和高光，避免纹样逐帧游移。",
-      "sha256": "0e128e00af1a6b0f821f11b36dbae126810f62b155031a6a422672f42ff49fdb"
+      "sha256": "0e128e00af1a6b0f821f11b36dbae126810f62b155031a6a422672f42ff49fdb",
+      "style_notes": "白瓷釉面、青蓝纹样与圆润陶瓷造型。"
     },
     {
       "id": "S27",
@@ -271,8 +271,8 @@
       "family": "弹性造型",
       "image": "assets/styles/S27-balloon-sculpture.png",
       "role": "style_reference_only",
-      "motion_notes": "适合夸张回弹、轻微弯腰；气球段数和扭结位置保持不变。",
-      "sha256": "035cbe14deabe6aeab9a136d0c9cec7c0f7dd6760a5a7b8779d3bc9da23b7a72"
+      "sha256": "035cbe14deabe6aeab9a136d0c9cec7c0f7dd6760a5a7b8779d3bc9da23b7a72",
+      "style_notes": "长条气球拼接、扭结结构与光亮乳胶质感。"
     },
     {
       "id": "S28",
@@ -281,8 +281,8 @@
       "family": "弹性造型",
       "image": "assets/styles/S28-gummy-character.png",
       "role": "style_reference_only",
-      "motion_notes": "适合挤压后恢复、眨眼；体积与透明度要稳定，不能靠整图缩放冒充肢体动作。",
-      "sha256": "96b16621fc36eb6dfbf599cdd95bf2e4026fc2c50a11a30cfd843b046fb94ee8"
+      "sha256": "96b16621fc36eb6dfbf599cdd95bf2e4026fc2c50a11a30cfd843b046fb94ee8",
+      "style_notes": "半透明糖果材质、饱满体积与柔亮色彩。"
     },
     {
       "id": "S29",
@@ -291,8 +291,8 @@
       "family": "机械造型",
       "image": "assets/styles/S29-tin-clockwork.png",
       "role": "style_reference_only",
-      "motion_notes": "适合机械点头、短促挥手；关节轴和发条位置固定，动作节奏可有停顿。",
-      "sha256": "85a7e36c5c462a40c6d3981d93f89ffd3616081f09b5c2eda2d0e2ed001eb9bc"
+      "sha256": "85a7e36c5c462a40c6d3981d93f89ffd3616081f09b5c2eda2d0e2ed001eb9bc",
+      "style_notes": "复古铁皮外壳、铆钉、机械关节与发条装饰。"
     },
     {
       "id": "S30",
@@ -301,8 +301,8 @@
       "family": "表演造型",
       "image": "assets/styles/S30-theatre-puppet.png",
       "role": "style_reference_only",
-      "motion_notes": "适合小幅张嘴、托腮、抬手；嘴缝和下颌分件一致，不让整张脸变形。",
-      "sha256": "bcf582ca5f6e22245e0d2c8865f743c2dc956e68f657a7a1c2c092646a0245fb"
+      "sha256": "bcf582ca5f6e22245e0d2c8865f743c2dc956e68f657a7a1c2c092646a0245fb",
+      "style_notes": "布料、毡面五官与舞台布偶的手工质感。"
     },
     {
       "id": "S31",
@@ -311,8 +311,8 @@
       "family": "数字造型",
       "image": "assets/styles/S31-neon-wireframe.png",
       "role": "style_reference_only",
-      "motion_notes": "适合抬手、转头；线框拓扑与亮度固定，检查深浅两种聊天背景。",
-      "sha256": "bf7864e620b6ec54c1eed181194c283573680cef7caf87e107573f979d6d5938"
+      "sha256": "bf7864e620b6ec54c1eed181194c283573680cef7caf87e107573f979d6d5938",
+      "style_notes": "发光轮廓线、网格结构与深色空间感。"
     },
     {
       "id": "S32",
@@ -321,8 +321,8 @@
       "family": "数字造型",
       "image": "assets/styles/S32-minimal-geometry.png",
       "role": "style_reference_only",
-      "motion_notes": "适合挑眉、摊手、点头；轮廓与眼镜对位比纹理重要，适合优先试动画。",
-      "sha256": "de42293262411e421914ae337a701c5130579404e883b2835d6061c59266af85"
+      "sha256": "de42293262411e421914ae337a701c5130579404e883b2835d6061c59266af85",
+      "style_notes": "基础几何形、留白与简洁的颜色关系。"
     },
     {
       "id": "S33",
@@ -331,8 +331,8 @@
       "family": "工艺材质",
       "image": "assets/styles/S33-tile-mosaic.png",
       "role": "style_reference_only",
-      "motion_notes": "适合克制点头、挥手；拼块布局和填缝需固定，避免每帧重排。",
-      "sha256": "52525c25186f6313ea9472aa84954da6ef826e097b24db3017255891539aa190"
+      "sha256": "52525c25186f6313ea9472aa84954da6ef826e097b24db3017255891539aa190",
+      "style_notes": "彩色瓷砖拼块、填缝线与拼贴表面。"
     },
     {
       "id": "S34",
@@ -341,8 +341,8 @@
       "family": "绘画与印刷",
       "image": "assets/styles/S34-chalk-drawing.png",
       "role": "style_reference_only",
-      "motion_notes": "适合短小反应；粉末纹理应稳定，避免随机噪点造成闪烁。",
-      "sha256": "a98d2bfbd729042e940a154982520e9f2dc3a7b9d5b551a1ad2edc83c570dd3c"
+      "sha256": "a98d2bfbd729042e940a154982520e9f2dc3a7b9d5b551a1ad2edc83c570dd3c",
+      "style_notes": "粉笔线条、粉末颗粒与黑板或纸面质感。"
     },
     {
       "id": "S35",
@@ -351,8 +351,8 @@
       "family": "实验动画",
       "image": "assets/styles/S35-pinscreen-relief.png",
       "role": "style_reference_only",
-      "motion_notes": "适合缓慢小幅表情变化；针点属于风格模拟，需测试噪点稳定性，尚未使用真实针幕装置。；当前样张呈针点颗粒雕塑感，是针幕启发的视觉变体。",
-      "sha256": "21dbeb2b332da8e8bb8d886758518e00c1cffdb9d609a714e310af7f9641a6de"
+      "sha256": "21dbeb2b332da8e8bb8d886758518e00c1cffdb9d609a714e310af7f9641a6de",
+      "style_notes": "密集针点颗粒与浮雕明暗，是针幕启发的视觉变体。"
     },
     {
       "id": "S36",
@@ -361,8 +361,8 @@
       "family": "绘画与印刷",
       "image": "assets/styles/S36-duotone-riso.png",
       "role": "style_reference_only",
-      "motion_notes": "适合点头、摆手、挑眉；两种印版之间的偏移保持固定，不随机跳动。",
-      "sha256": "8320bf13af90720989b950581c48ed62a24b1eff7b2ea1fe2346681fb0ec9f1f"
+      "sha256": "8320bf13af90720989b950581c48ed62a24b1eff7b2ea1fe2346681fb0ec9f1f",
+      "style_notes": "双色印刷、孔版颗粒与有意错位的套色效果。"
     },
     {
       "id": "S37",
@@ -371,8 +371,8 @@
       "family": "未来机能",
       "image": "assets/styles/S37-cyberpunk.png",
       "role": "style_reference_only",
-      "motion_notes": "适合抬腕看消息、扶眼镜、短挥手；固定护腕装甲、衣服口袋与灯条位置，锁定发光强度和脸部比例。",
-      "sha256": "ec858c0de1b6692f6caa076a7f2d262759d869061997e5130c10ef5e62102c5b"
+      "sha256": "ec858c0de1b6692f6caa076a7f2d262759d869061997e5130c10ef5e62102c5b",
+      "style_notes": "霓虹配色、未来服饰、金属部件与科技发光细节。"
     }
   ]
 }

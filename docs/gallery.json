@@ -519,7 +519,7 @@
         },
         {
           "id": "07",
-          "caption": "钱包飞蛾（无字版）",
+          "caption": "没钱的",
           "file": "docs/examples/trump-pixel/07.gif",
           "sha256": "bce2d7ae58128c102b568391736957f4bb61ec5bdbb0662495a6a0360c6b529c",
           "frames": 24,
@@ -527,7 +527,7 @@
         },
         {
           "id": "08",
-          "caption": "看不懂演讲稿（无字版）",
+          "caption": "看不懂演讲稿",
           "file": "docs/examples/trump-pixel/08.gif",
           "sha256": "e5c6b6ede149be8e3088bd7e19a9381de1b7fe933a104143400a3f4cbdc832bd",
           "frames": 24,
@@ -586,5 +586,5 @@
       "03"
     ]
   ],
-  "release_tag": "v0.3.2-preview"
+  "release_tag": "v0.3.3-preview"
 }
