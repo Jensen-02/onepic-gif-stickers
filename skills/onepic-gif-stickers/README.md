@@ -16,6 +16,6 @@ Codex 专用技能：上传一张主图、说一个主题，使用 Codex 内置�
 
 最终交付每条表情对应的独立 `.gif` 文件和整套 ZIP。生成工具返回静态图后继续制作，不停在角色样张或静态合集；已能直接输出真实 GIF 时优先使用，跳过姿势合成。
 
-可选[动作参考库](references/action-library.md)提供表演灵感，允许改编或自由设计库外动作，不与画风绑定。
+可选[动作参考库](references/action-library.md)包含128个动作灵感、16个主题，按需读取主题文件。允许改编或自由设计库外动作，不与画风绑定。
 
-版本：0.3.3预览版。完整安装、演示、问题反馈和MIT许可见[项目主页](https://github.com/Jensen-02/onepic-gif-stickers)。
+版本：0.3.4预览版。完整安装、演示、问题反馈和MIT许可见[项目主页](https://github.com/Jensen-02/onepic-gif-stickers)。

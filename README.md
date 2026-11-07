@@ -234,7 +234,7 @@ OnePic GIF Stickers 是一个 Codex 技能。你上传图片、说出主题，Co
 
 </details>
 
-[查看画风参考](docs/styles.md) · [动作参考库](docs/actions.md)（仅供灵感，可自由设计库外动作）
+[查看画风参考](docs/styles.md) · [128 个动作参考 · 16 个主题](docs/actions.md)（仅供灵感，可自由设计库外动作）
 
 ## 许可与作者
 
